@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 
-public abstract class Clientproxy {
+public abstract class Clientproxy implements IProxy{
     @Override 
     public void preInit(FMLPreInitializationEvent event) {
 	

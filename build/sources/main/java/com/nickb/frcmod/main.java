@@ -1,7 +1,5 @@
 package com.nickb.frcmod;
 
-import com.nickb.frcmod.proxy.Commonproxy;
-
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -15,7 +13,7 @@ public class main{
 	public static final String version = "1.0.0";
 
 	@SidedProxy(serverSide = "com.nickb.frcmod.proxy.Serverproxy", clientSide = "com.nickb.frcmod.proxy.Clientproxy")
-	public static Commonproxy proxy;
+	public static IProxy proxy;
 
 	@Mod.Instance(modId)
 	public static main instance;
