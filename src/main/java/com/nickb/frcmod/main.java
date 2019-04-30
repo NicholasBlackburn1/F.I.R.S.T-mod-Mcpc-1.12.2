@@ -12,8 +12,8 @@ public class main{
 	public static final String name = "F.I.R.S.T Robotics mod";
 	public static final String version = "1.0.0";
 
-	@SidedProxy(serverSide = "com.nickb.frcmod.proxy.ServerProxy", clientSide = "com.nickb.frcmod.proxy.ClientProxy")
-	public static CommonProxy proxy;
+	@SidedProxy(serverSide = "com.nickb.frcmod.proxy.Serverproxy", clientSide = "com.nickb.frcmod.proxy.Clientproxy")
+	public static IProxy proxy;
 
 	@Mod.Instance(modId)
 	public static main instance;
@@ -35,4 +35,3 @@ public class main{
 
 }
 
-}
