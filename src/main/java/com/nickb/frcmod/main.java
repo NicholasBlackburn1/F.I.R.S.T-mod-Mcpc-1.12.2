@@ -1,6 +1,5 @@
 package com.nickb.frcmod;
 
-import com.nickb.frcmod.proxy.Commonproxy;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -14,8 +13,8 @@ public class main{
 	public static final String name = "F.I.R.S.T Robotics mod";
 	public static final String version = "1.0.0";
 
-	@SidedProxy(serverSide = "com.nickb.frcmod.proxy.Serverproxy", clientSide = "com.nickb.frcmod.proxy.Clientproxy")
-	public static Commonproxy proxy;
+	//@SidedProxy(serverSide = "com.nickb.frcmod.proxy.Serverproxy", clientSide = "com.nickb.frcmod.proxy.Clientproxy")
+	//public static Commonproxy proxy;
 
 	@Mod.Instance(modId)
 	public static main instance;
