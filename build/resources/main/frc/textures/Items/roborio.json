@@ -1,0 +1,8 @@
+{
+    "variants": {
+      "axis=y":  { "model": "roborio" },
+      "axis=z":   { "model": "roborio" },
+      "axis=x":   { "model": "roborio", "y": 90 },
+      "axis=none":   { "model": "roborio" }
+    }
+  }

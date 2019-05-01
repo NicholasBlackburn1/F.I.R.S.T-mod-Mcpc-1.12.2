@@ -1,5 +1,6 @@
 package com.nickb.frcmod;
 
+import com.nickb.frcmod.items.RegisterItem;
 import com.nickb.frcmod.proxy.Commonproxy;
 
 import net.minecraft.item.Item;
@@ -27,6 +28,7 @@ public class main{
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		System.out.println(name + " is loading!");
+		
 	}
 
 	@Mod.EventHandler
@@ -38,12 +40,15 @@ public class main{
 	public void postInit(FMLPostInitializationEvent event) {
 
 	}
-		// Item Register handler --> registers ite textures 
+		// Item Register handler --> registers item textures 
 	@Mod.EventBusSubscriber
 	public static class RegistrationHandler {
+		// Register Item's  --> models / texture 
 		@SubscribeEvent
 		public static void registerItems(RegistryEvent.Register<Item> event) {
+			RegisterItem.register(event.getRegistry());
 			
+
 		}
 
 	}

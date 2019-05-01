@@ -5,15 +5,18 @@ import net.minecraft.item.Item;
 import net.minecraftforge.registries.IForgeRegistry;
 
 public class RegisterItem {
-    public static Itembase roborio = new Itembase("Roborio").setCreativeTab(CreativeTabs.MATERIALS);
-
+    public static Itembase roboaxe = new Itembase("Roboaxe").setCreativeTab(CreativeTabs.MATERIALS);
+    public static Itembase robosword = new Itembase("Robosword").setCreativeTab(CreativeTabs.MATERIALS);
+     
     public static void register(IForgeRegistry<Item> registry) {
         registry.registerAll(
-                roborio
+               roboaxe  , robosword
         );
     }
     
     public static void registerModels() {
-       roborio.registerItemModel();
+       roboaxe.registerItemModel();
+       robosword.registerItemModel();
+       
     }
 }
