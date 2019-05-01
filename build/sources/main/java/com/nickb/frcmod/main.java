@@ -1,6 +1,7 @@
 package com.nickb.frcmod;
 
 import com.nickb.frcmod.items.RegisterItem;
+import com.nickb.frcmod.items.RegisterItems;
 import com.nickb.frcmod.proxy.Commonproxy;
 
 import net.minecraft.item.Item;
@@ -46,7 +47,7 @@ public class main{
 		// Register Item's  --> models / texture 
 		@SubscribeEvent
 		public static void registerItems(RegistryEvent.Register<Item> event) {
-			RegisterItem.register(event.getRegistry());
+			RegisterItems.register(event.getRegistry());
 			
 
 		}

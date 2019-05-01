@@ -6,7 +6,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import java.lang.reflect.Proxy;
 
 import com.nickb.frcmod.main;
-import com.nickb.frcmod.items.RegisterItem;
+import com.nickb.frcmod.items.RegisterItems;
 
 import net.minecraft.item.Item;
 import net.minecraft.network.play.server.SPacketCombatEvent.Event;
@@ -17,7 +17,7 @@ public class Commonproxy{
      Proxy proxy;
      
     public void registerItemRenderer(Item item, int meta, String id) {
-        
+       
 
     }
 }

@@ -2,24 +2,26 @@ package com.nickb.frcmod.items;
 
 import com.nickb.frcmod.main;
 
+import net.minecraft.client.tutorial.Tutorial;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class Itembase extends Item {
-    protected String name;
+public class ItemBase extends Item {
 
-	public Itembase(String name) {
+	protected String name;
+
+	public ItemBase(String name) {
 		this.name = name;
 		setUnlocalizedName(name);
 		setRegistryName(name);
 	}
-	
+
 	public void registerItemModel() {
-	    main.proxy.registerItemRenderer(this, 0, name);
+		main.proxy.registerItemRenderer(this, 0, name);
 	}
 	
 	@Override
-	public Itembase setCreativeTab(CreativeTabs tab) {
+	public ItemBase setCreativeTab(CreativeTabs tab) {
 		super.setCreativeTab(tab);
 		return this;
 	}
