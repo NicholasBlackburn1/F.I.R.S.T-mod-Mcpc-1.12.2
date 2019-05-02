@@ -1,6 +1,5 @@
 package com.nickb.frcmod;
 
-import com.nickb.frcmod.items.RegisterItem;
 import com.nickb.frcmod.items.RegisterItems;
 import com.nickb.frcmod.proxy.Commonproxy;
 
@@ -31,12 +30,12 @@ public class main{
 		System.out.println(name + " is loading!");
 		
 	}
-
+		// 
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event) {
 		
 	}
-
+		// Post Forge Init
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
 
@@ -48,7 +47,7 @@ public class main{
 		@SubscribeEvent
 		public static void registerItems(RegistryEvent.Register<Item> event) {
 			RegisterItems.register(event.getRegistry());
-			
+			RegisterItems.registerModels();
 
 		}
 

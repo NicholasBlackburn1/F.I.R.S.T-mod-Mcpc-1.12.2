@@ -1,0 +1,20 @@
+Symbol range map extraction starting
+Processing 6 files
+startProcessing "com/nickb/frcmod/items/ItemBase.java" md5: 4c9f9e380569db1dad70bb37415b4067
+endProcessing "com/nickb/frcmod/items/ItemBase.java"
+
+startProcessing "com/nickb/frcmod/items/RegisterItems.java" md5: ded27e11f9c6620dc7ade1f470a5cb68
+endProcessing "com/nickb/frcmod/items/RegisterItems.java"
+
+startProcessing "com/nickb/frcmod/main.java" md5: bf770ff224fcf42071f19f33c3c68370
+endProcessing "com/nickb/frcmod/main.java"
+
+startProcessing "com/nickb/frcmod/proxy/Clientproxy.java" md5: 896fec672efd66ce8cb33e5dc9060ca6
+endProcessing "com/nickb/frcmod/proxy/Clientproxy.java"
+
+startProcessing "com/nickb/frcmod/proxy/Commonproxy.java" md5: 48f409c7a889c0691bc39f644df5cd7b
+endProcessing "com/nickb/frcmod/proxy/Commonproxy.java"
+
+startProcessing "com/nickb/frcmod/proxy/Serverproxy.java" md5: c04e014f1c27417af2d539a48ea8cb93
+endProcessing "com/nickb/frcmod/proxy/Serverproxy.java"
+
