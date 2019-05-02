@@ -4,7 +4,9 @@ import com.nickb.frcmod.blocks.Registerblocks;
 import com.nickb.frcmod.items.RegisterItems;
 import com.nickb.frcmod.proxy.Commonproxy;
 
+import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -47,17 +49,25 @@ public class main {
 	// Item Register handler --> registers item textures
 	@Mod.EventBusSubscriber
 	public static class RegistrationHandler {
+
+		@SubscribeEvent
+		public static void registerBlocks(RegistryEvent.Register<Block> event) {
+		Registerblocks.register(event.getRegistry());
+	
+	}
 		// Register Item's --> models / texture
 		@SubscribeEvent
 		public static void registerItems(RegistryEvent.Register<Item> event) {
 			RegisterItems.register(event.getRegistry());
-			Registerblocks.register(event.getRegistry());
-			
+			Registerblocks.registerItemBlocks(event.getRegistry());
+		}
+			@SubscribeEvent
+			public static void registerModels(ModelRegistryEvent event) {
+				
 			Registerblocks.registerModels();
 			RegisterItems.registerModels();
 
 		}
-
 	}
 
 }

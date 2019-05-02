@@ -10,17 +10,15 @@ public class Registerblocks {
     public static Blockore RobotBuilder = new Blockore("RobotBuilder").setCreativeTab(CreativeTabs.MATERIALS);
 
 	public static void register(IForgeRegistry<Block> registry) {
-        registry.registerAll(RobotBuilder);
+        registry.register( RobotBuilder);
 	}
 
 	public static void registerItemBlocks(IForgeRegistry<Item> registry) {
-        registry.registerAll(
-            RobotBuilder.createItemBlock()
-    );
+        registry.register( RobotBuilder.createItemBlock());
 	}
 
 	public static void registerModels() {
         RobotBuilder.registerItemModel(Item.getItemFromBlock(RobotBuilder));
+	    }   
 
-	}
 }
