@@ -1,10 +1,13 @@
 package com.nickb.frcmod;
 
+import com.nickb.frcmod.Tabs.Tabs;
 import com.nickb.frcmod.blocks.Registerblocks;
 import com.nickb.frcmod.items.RegisterItems;
 import com.nickb.frcmod.proxy.Commonproxy;
+import com.nickb.frcmod.Tabs.*;
 
 import net.minecraft.block.Block;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -27,6 +30,7 @@ public class main {
 
 	@Mod.Instance(modId)
 	public static main instance;
+	public static final Tabs CREATIVE_TABS= new Tabs();
 
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
