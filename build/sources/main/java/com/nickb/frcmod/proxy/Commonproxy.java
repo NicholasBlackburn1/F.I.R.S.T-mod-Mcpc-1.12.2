@@ -10,6 +10,7 @@ import com.nickb.frcmod.items.RegisterItems;
 
 import net.minecraft.item.Item;
 import net.minecraft.network.play.server.SPacketCombatEvent.Event;
+import net.minecraft.util.text.translation.I18n;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 
@@ -20,4 +21,8 @@ public class Commonproxy{
        
 
     }
+
+	public String localize(String unlocalized, Object... args) {
+		return I18n.translateToLocalFormatted(unlocalized, args);
+	}
 }
