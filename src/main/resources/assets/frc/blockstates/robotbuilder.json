@@ -1,0 +1,12 @@
+{
+"forge_marker": 1,
+	"variants": {
+		"normal": {
+			"model": "frc:robotbuilder"
+		},
+		"inventory": {
+			"model": "frc:robotbuilder",
+			"transform": "forge:default-block"
+		}
+	}
+}

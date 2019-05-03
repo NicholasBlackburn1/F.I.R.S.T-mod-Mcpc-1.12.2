@@ -9,18 +9,19 @@ import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.registries.IForgeRegistry;
 
 public class Registerblocks {
-    public static Robotbuilder robotbuilder = new Robotbuilder();
 
-    public static void register(IForgeRegistry<Block> registry) {
-        
+       public static Robotbuilder RobotBuilder = new Robotbuilder();
+       
+    public static void register(IForgeRegistry<Block> iForgeRegistry) {
+        iForgeRegistry.register(RobotBuilder);
     }
 
     public static void registerItemBlocks(IForgeRegistry<Item> registry) {
-      
+        registry.register(RobotBuilder.createItemBlock());
     }
 
     public static void registerModels() {
-     
+        RobotBuilder.registerItemModel(getItemFromBlock(RobotBuilder));
 	    }   
 
 }

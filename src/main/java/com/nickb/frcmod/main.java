@@ -55,6 +55,10 @@ public class main {
 			RegisterItems.register(event.getRegistry());
 			Registerblocks.registerItemBlocks(event.getRegistry());
 		}
+		@SubscribeEvent
+		public static void registerBlocks(RegistryEvent.Register<Block> event) {
+		Registerblocks.register(event.getRegistry());
+		}
 			@SubscribeEvent
 			public static void registerModels(ModelRegistryEvent event) {
 				
