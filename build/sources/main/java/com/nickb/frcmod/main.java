@@ -49,12 +49,6 @@ public class main {
 	// Item Register handler --> registers item textures
 	@Mod.EventBusSubscriber
 	public static class RegistrationHandler {
-
-		@SubscribeEvent
-		public static void registerBlocks(RegistryEvent.Register<Block> event) {
-		Registerblocks.register(event.getRegistry());
-	
-	}
 		// Register Item's --> models / texture
 		@SubscribeEvent
 		public static void registerItems(RegistryEvent.Register<Item> event) {

@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "frc:block/cauldron_side",
-		"1": "frc:block/crafting_table_top",
-		"particle": "frc:block/cauldron_side"
+		"0": "frc:blocks/cauldron_side",
+		"1": "frc:blocks/crafting_table_top",
+		"particle": "frc:blocks/cauldron_side"
 	},
 	"elements": [
 		{
