@@ -11,7 +11,7 @@ public class RegisterItems {
 	public static ItemBase ingotCopper = new ItemBase("ingot_copper");
 	public static ItemBase wire = new ItemBase("wire");
 	public static ItemBase roborio = new ItemBase("roborio");
-	public static ItemBase tallonsrx = new ItemBase("Tallon Srx");
+	public static ItemBase tallonsrx = new ItemBase("tallon_srx");
 	public static ItemBase weels = new ItemBase("weels");
 	public static ItemBase pdp = new ItemBase("pdp");
 
@@ -28,11 +28,11 @@ public static void register(IForgeRegistry<Item> registry) {
 public static void registerModels() {
   
 	ingotCopper.registerItemModel();
-	wire.registerItemModel();
+	//wire.registerItemModel();
 	roborio.registerItemModel();
 	tallonsrx.registerItemModel();
 	weels.registerItemModel();
-	pdp.registerItemModel();
+	//pdp.registerItemModel();
 
     }
 }

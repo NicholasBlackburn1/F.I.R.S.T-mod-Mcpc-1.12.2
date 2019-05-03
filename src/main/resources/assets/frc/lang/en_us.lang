@@ -1,0 +1,8 @@
+item.ingot_copper.name=Copper Ingot
+item.roborio.name=Roborio
+item.tallon_srx.name=Tallon Srx
+item.weels.name=wheels
+item.pdp.name=Pdp
+
+# Blocks
+tile.RobotBuilder.name=Robot Builder

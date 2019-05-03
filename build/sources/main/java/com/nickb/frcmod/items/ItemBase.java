@@ -19,10 +19,9 @@ public class ItemBase extends Item {
 	public void registerItemModel() {
 		main.proxy.registerItemRenderer(this, 0, name);
 	}
-	
-	@Override
+		@Override
 	public ItemBase setCreativeTab(CreativeTabs tab) {
-		super.setCreativeTab(main.CREATIVE_TABS);
+		setCreativeTab(main.CREATIVE_TABS);
 		return this;
 	}
 
