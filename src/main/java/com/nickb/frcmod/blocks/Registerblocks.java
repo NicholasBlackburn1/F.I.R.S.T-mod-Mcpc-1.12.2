@@ -9,6 +9,7 @@ import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.registries.IForgeRegistry;
 
 public class Registerblocks {
+    
 
        public static Robotbuilder RobotBuilder = new Robotbuilder();
        
