@@ -31,6 +31,6 @@ public class RegisterEntity {
 
     @SideOnly(Side.CLIENT)
     public static void initModels() {
-        RenderingRegistry.registerEntityRenderingHandler(RenderDean.class, RenderDean.FACTORY);
+        RenderingRegistry.registerEntityRenderingHandler(Deanmod.class, RenderDean.FACTORY);
         }
 }
