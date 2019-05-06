@@ -36,11 +36,8 @@ public class Robobuilderevent {
 
     @SubscribeEvent
     public static void onJoin(PlayerLoggedInEvent event) { 
-        event.player.sendMessage(new TextComponentString("§l§6F.I.R.S.T Robotics §r§o§2 Is Loaded"));
-        event.player.playSound(SoundEvents.ENTITY_HORSE_DEATH, 100, 1);
-    } 
-    @SubscribeEvent
-    public static void pickupItem(EntityItemPickupEvent event) {
-        EntityPlayer Player = event.getEntityPlayer();
+        event.player.sendMessage(new TextComponentString("§l§6F.I.R.S.T Robotics §o§2 Is Loaded"));
+        
+    
     }
 }

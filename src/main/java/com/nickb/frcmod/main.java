@@ -4,6 +4,7 @@ import com.nickb.frcmod.Tabs.Tabs;
 import com.nickb.frcmod.blocks.Registerblocks;
 import com.nickb.frcmod.items.RegisterItems;
 import com.nickb.frcmod.proxy.Commonproxy;
+import com.nickb.frcmod.Enitity.RegisterEntity;
 import com.nickb.frcmod.Events.Robobuilderevent;
 import com.nickb.frcmod.Tabs.*;
 
@@ -38,21 +39,20 @@ public class main {
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		System.out.println(name + " is loading!");
-
+		RegisterEntity.init();
 	}
 
 	//
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event) {
-
+		RegisterEntity.init();
 	}
 
 	// Post Forge Init
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
-
+		RegisterEntity.init();
 	}
-
 	// Item Register handler --> registers item textures
 	@Mod.EventBusSubscriber
 	public static class RegistrationHandler {
