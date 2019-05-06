@@ -4,6 +4,7 @@ import com.nickb.frcmod.Tabs.Tabs;
 import com.nickb.frcmod.blocks.Registerblocks;
 import com.nickb.frcmod.items.RegisterItems;
 import com.nickb.frcmod.proxy.Commonproxy;
+import com.nickb.frcmod.Events.Robobuilderevent;
 import com.nickb.frcmod.Tabs.*;
 
 import net.minecraft.block.Block;
@@ -11,10 +12,12 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.event.entity.player.EntityItemPickupEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 
@@ -30,7 +33,7 @@ public class main {
 
 	@Mod.Instance(modId)
 	public static main instance;
-	public static final Tabs CREATIVE_TABS= new Tabs();
+	public static final Tabs CREATIVE_TABS = new Tabs();
 
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
@@ -59,16 +62,28 @@ public class main {
 			RegisterItems.register(event.getRegistry());
 			Registerblocks.registerItemBlocks(event.getRegistry());
 		}
+
 		@SubscribeEvent
 		public static void registerBlocks(RegistryEvent.Register<Block> event) {
-		Registerblocks.register(event.getRegistry());
+			Registerblocks.register(event.getRegistry());
 		}
-			@SubscribeEvent
-			public static void registerModels(ModelRegistryEvent event) {
-				
+
+		@SubscribeEvent
+		public static void registerModels(ModelRegistryEvent event) {
+
 			Registerblocks.registerModels();
 			RegisterItems.registerModels();
 
+		}
+
+		@SubscribeEvent
+		public static void custom(EntityItemPickupEvent event) {
+			Robobuilderevent.pickupItem(event);
+		}
+
+		@SubscribeEvent
+		public static void Login(PlayerLoggedInEvent event) {
+			Robobuilderevent.onJoin(event);
 		}
 	}
 

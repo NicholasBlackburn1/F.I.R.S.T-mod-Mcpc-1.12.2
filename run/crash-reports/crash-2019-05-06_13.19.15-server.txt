@@ -1,0 +1,114 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 5/6/19 1:19 PM
+Description: Ticking player
+
+java.lang.ExceptionInInitializerError
+	at com.nickb.frcmod.main$RegistrationHandler.Robobuilderevent(main.java:79)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_6_RegistrationHandler_Robobuilderevent_EntityItemPickupEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.event.ForgeEventFactory.onItemPickup(ForgeEventFactory.java:490)
+	at net.minecraft.entity.item.EntityItem.onCollideWithPlayer(EntityItem.java:435)
+	at net.minecraft.entity.player.EntityPlayer.collideWithPlayer(EntityPlayer.java:664)
+	at net.minecraft.entity.player.EntityPlayer.onLivingUpdate(EntityPlayer.java:635)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:2398)
+	at net.minecraft.entity.player.EntityPlayer.onUpdate(EntityPlayer.java:272)
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdateEntity(EntityPlayerMP.java:423)
+	at net.minecraft.network.NetHandlerPlayServer.update(NetHandlerPlayServer.java:185)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.update(NetworkDispatcher.java:212)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:307)
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:197)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:865)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
+	at com.google.gson.internal.Streams.parse(Streams.java:60)
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:65)
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:435)
+	at net.minecraft.util.JsonUtils.gsonDeserialize(JsonUtils.java:467)
+	at net.minecraft.util.text.ITextComponent$Serializer.jsonToComponent(ITextComponent.java:322)
+	at com.nickb.frcmod.Events.Robobuilderevent.<clinit>(Robobuilderevent.java:31)
+	... 20 more
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559)
+	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1401)
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:593)
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:425)
+	at com.google.gson.internal.Streams.parse(Streams.java:46)
+	... 25 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at com.nickb.frcmod.main$RegistrationHandler.Robobuilderevent(main.java:79)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_6_RegistrationHandler_Robobuilderevent_EntityItemPickupEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.event.ForgeEventFactory.onItemPickup(ForgeEventFactory.java:490)
+	at net.minecraft.entity.item.EntityItem.onCollideWithPlayer(EntityItem.java:435)
+	at net.minecraft.entity.player.EntityPlayer.collideWithPlayer(EntityPlayer.java:664)
+	at net.minecraft.entity.player.EntityPlayer.onLivingUpdate(EntityPlayer.java:635)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:2398)
+	at net.minecraft.entity.player.EntityPlayer.onUpdate(EntityPlayer.java:272)
+
+-- Player being ticked --
+Details:
+	Entity Type: null (net.minecraft.entity.player.EntityPlayerMP)
+	Entity ID: 359
+	Entity Name: Player10
+	Entity's Exact location: 88.56, 72.23, 262.45
+	Entity's Block location: World: (88,72,262), Chunk: (at 8,4,6 in 5,16; contains blocks 80,0,256 to 95,255,271), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Entity's Momentum: 0.00, -0.38, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdateEntity(EntityPlayerMP.java:423)
+	at net.minecraft.network.NetHandlerPlayServer.update(NetHandlerPlayServer.java:185)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.update(NetworkDispatcher.java:212)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:307)
+
+-- Ticking connection --
+Details:
+	Connection: net.minecraft.network.NetworkManager@46bac951
+Stacktrace:
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:197)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:865)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 4.15.0-47-generic
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 166339136 bytes (158 MB) / 543686656 bytes (518 MB) up to 1832910848 bytes (1748 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP 9.42 Powered by Forge 14.23.5.2768 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State     | ID        | Version      | Source                           | Signature |
+	|:--------- |:--------- |:------------ |:-------------------------------- |:--------- |
+	| UCHIJAAAA | minecraft | 1.12.2       | minecraft.jar                    | None      |
+	| UCHIJAAAA | mcp       | 9.42         | minecraft.jar                    | None      |
+	| UCHIJAAAA | FML       | 8.0.99.99    | forgeSrc-1.12.2-14.23.5.2768.jar | None      |
+	| UCHIJAAAA | forge     | 14.23.5.2768 | forgeSrc-1.12.2-14.23.5.2768.jar | None      |
+	| UCHIJAAAA | frc       | 1.0.0        | frc-1.0.jar                      | None      |
+
+	Loaded coremods (and transformers): 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['Player10'/359, l='New World', x=88.56, y=72.23, z=262.45]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
