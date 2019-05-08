@@ -6,6 +6,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import java.lang.reflect.Proxy;
 
 import com.nickb.frcmod.main;
+import com.nickb.frcmod.Enitity.RegisterEntity;
 import com.nickb.frcmod.blocks.*;
 import com.nickb.frcmod.items.RegisterItems;
 
@@ -19,7 +20,7 @@ public class Commonproxy{
      Proxy proxy;
      @Override
     public void preInit(FMLPreInitializationEvent event) {
-          System.out.println(name + " is loading!");
+          System.out.println(main.name + " is loading!");
 		      RegisterEntity.init();
      }
      
