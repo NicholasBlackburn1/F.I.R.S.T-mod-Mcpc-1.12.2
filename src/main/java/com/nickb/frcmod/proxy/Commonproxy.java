@@ -16,7 +16,21 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 
 public class Commonproxy{
      Proxy proxy;
+     @Override
+     public void preInit(FMLPreInitializationEvent event) {
+          System.out.println(name + " is loading!");
+		      RegisterEntity.init();
+     }
      
+     @Override
+     public void Init(FMLInitializationEvent event) {
+          RegisterEntity.initModels();
+     }
+
+     @Override
+     public void postInit(FMLPostInitializationEvent event) {
+     
+     }
     public void registerItemRenderer(Item item, int meta, String id) {
        
 
