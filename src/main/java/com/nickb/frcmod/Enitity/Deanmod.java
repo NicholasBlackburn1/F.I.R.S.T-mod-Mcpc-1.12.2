@@ -19,6 +19,7 @@ import net.minecraft.entity.ai.EntityAIWatchClosest;
 import net.minecraft.entity.monster.EntityIronGolem;
 import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.monster.EntityPigZombie;
+import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.entity.passive.EntityVillager;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.MobEffects;
@@ -35,10 +36,10 @@ public class Deanmod extends EntityMob {
 
     // We reuse the zombie model which has arms that need to be raised when the
     // zombie is attacking:
-    private static final DataParameter<Boolean> ARMS_RAISED = EntityDataManager.createKey(EntityPigZombie.class,
+    private static final DataParameter<Boolean> ARMS_RAISED = EntityDataManager.createKey(EntityZombie.class,
             DataSerializers.BOOLEAN);
 
-    public static final ResourceLocation LOOT = new ResourceLocation(main.modId+"entitys/dean");
+    public static final ResourceLocation LOOT = new ResourceLocation(main.modId+"entity/dean");
 
     public Deanmod(World worldIn) {
         super(worldIn);
@@ -83,7 +84,7 @@ public class Deanmod extends EntityMob {
 
     private void applyEntityAI() {
         this.tasks.addTask(6, new EntityAIMoveThroughVillage(this, 1.0D, false));
-        this.targetTasks.addTask(1, new EntityAIHurtByTarget(this, true, new Class[]{EntityPigZombie.class}));
+        this.targetTasks.addTask(1, new EntityAIHurtByTarget(this, true, new Class[]{EntityZombie.class}));
         this.targetTasks.addTask(2, new EntityAINearestAttackableTarget(this, EntityPlayer.class, true));
         this.targetTasks.addTask(3, new EntityAINearestAttackableTarget(this, EntityVillager.class, false));
         this.targetTasks.addTask(3, new EntityAINearestAttackableTarget(this, EntityIronGolem.class, true));
