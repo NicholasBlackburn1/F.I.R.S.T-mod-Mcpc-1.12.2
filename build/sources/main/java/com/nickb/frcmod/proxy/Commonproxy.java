@@ -7,78 +7,48 @@ import java.lang.reflect.Proxy;
 
 import com.nickb.frcmod.main;
 import com.nickb.frcmod.Enitity.RegisterEntity;
-<<<<<<< HEAD
-=======
 import com.nickb.frcmod.blocks.*;
->>>>>>> master
 import com.nickb.frcmod.items.RegisterItems;
 
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockBone;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.network.play.server.SPacketCombatEvent.Event;
 import net.minecraft.util.text.translation.I18n;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 @Mod.EventBusSubscriber
-public class Commonproxy{
-     Proxy proxy;
-<<<<<<< HEAD
-		 public void preInit(FMLPreInitializationEvent e) {
-			 RegisterEntity.init();
-    }
-=======
-     @Override
-    public void preInit(FMLPreInitializationEvent event) {
-          System.out.println(main.name + " is loading!");
-		      RegisterEntity.init();
-     }
-     
-     @Override
-    public void Init(FMLInitializationEvent event) {
-          RegisterEntity.initModels();
-     }
 
-     @Override
-    public void postInit(FMLPostInitializationEvent event) {
-     
-     }
-    public void registerItemRenderer(Item item, int meta, String id) {
-       
->>>>>>> master
+public class Commonproxy {
+    public void preInit(FMLPreInitializationEvent e) {
+			RegisterEntity.init();
+    }
 
     public void init(FMLInitializationEvent e) {
+			RegisterEntity.initModels();
     }
-    @Mod.EventBusSubscriber
-	public static class RegistrationHandler {
-		// Register Item's --> models / texture
-		@SubscribeEvent
-		public static void registerItems(RegistryEvent.Register<Item> event) {
-			RegisterItems.register(event.getRegistry());
-			Registerblocks.registerItemBlocks(event.getRegistry());
-		}
-		@SubscribeEvent
-		public static void registerBlocks(RegistryEvent.Register<Block> event) {
-		  Registerblocks.register(event.getRegistry());
-		}
-		@SubscribeEvent
-		public static void registerModels(ModelRegistryEvent event) {
-				
-			Registerblocks.registerModels();
-			RegisterItems.registerModels();
 
-
-<<<<<<< HEAD
     public void postInit(FMLPostInitializationEvent e) {
+    }
 
+    @SubscribeEvent
+    public static void registerBlocks(RegistryEvent.Register<Block> event) {
+			Registerblocks.register(event.getRegistry());
+    }
+
+    @SubscribeEvent
+    public static void registerItems(RegistryEvent.Register<Item> event) {
+			Registerblocks.registerItemBlocks(event.getRegistry());
+			RegisterItems.register(event.getRegistry());
+		}
+		@SubscribeEvent
+    public void registerItemRenderer(Item item, int meta, String id) {
+		ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(main.modId + ":" + id, "inventory"));
 		}
 		
-    @SubscribeEvent
-    public void registerItemRenderer(Item item, int meta, String id) {
-    
-=======
-	  public String localize(String unlocalized, Object... args) {
-		return I18n.translateToLocalFormatted(unlocalized, args);
-      }
->>>>>>> master
-    }
 }

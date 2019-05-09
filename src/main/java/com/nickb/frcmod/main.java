@@ -38,62 +38,24 @@ public class main {
 
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-<<<<<<< HEAD
-		System.out.println(name + " is loading!");
+	System.out.println(name + " is loading!");
 		proxy.preInit(event);
 
-=======
-		super.preinit(event);
->>>>>>> master
 	}
 
 	//
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event) {
-<<<<<<< HEAD
 		proxy.init(event);
-=======
-		super.Init(event);
->>>>>>> master
 	}
 
 	// Post Forge Init
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
-<<<<<<< HEAD
 		proxy.postInit(event);
 	}
-	// Item Register handler --> registers item textures
-	@Mod.EventBusSubscriber
-	public static class RegistrationHandler {
-		// Register Item's --> models / texture
-		@SubscribeEvent
-		public static void registerItems(RegistryEvent.Register<Item> event) {
-			RegisterItems.register(event.getRegistry());
-			Registerblocks.registerItemBlocks(event.getRegistry());
-		}
-
-		@SubscribeEvent
-		public static void registerBlocks(RegistryEvent.Register<Block> event) {
-			Registerblocks.register(event.getRegistry());
-		}
-
-		@SubscribeEvent
-		public static void registerModels(ModelRegistryEvent event) {
-
-			Registerblocks.registerModels();
-			RegisterItems.registerModels();
-
-		}
-
 		@SubscribeEvent
 		public static void Login(PlayerLoggedInEvent event) {
 			Robobuilderevent.onJoin(event);
 		}
-=======
-		super.postInit(event);
->>>>>>> master
 	}
-
-}
-
