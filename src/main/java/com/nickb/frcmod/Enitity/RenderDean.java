@@ -13,7 +13,7 @@ import net.minecraftforge.fml.client.registry.IRenderFactory;
 
 public class RenderDean extends RenderLiving<Deanmod> {
 
-    public ResourceLocation mobTexture = new ResourceLocation(main.modId+":"+"textures/entity/Dean");
+    public ResourceLocation mobTexture = new ResourceLocation(main.modId+":"+"entity/dean.png");
 
     public static final Factory FACTORY = new Factory();
 

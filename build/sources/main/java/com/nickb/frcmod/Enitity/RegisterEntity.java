@@ -14,7 +14,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class RegisterEntity {
-    static ResourceLocation dean = new ResourceLocation("frc:textures/entity/Dean");
+    static ResourceLocation dean = new ResourceLocation(main.modId+":"+"entity/dean.png");
     public static void init() {
         // Every entity in our mod has an ID (local to this mod)
        

@@ -2,6 +2,8 @@ package com.nickb.frcmod.Enitity;
 
 import javax.annotation.Nonnull;
 
+import com.nickb.frcmod.main;
+
 import net.minecraft.client.model.ModelZombie;
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.client.renderer.entity.RenderLiving;
@@ -11,7 +13,7 @@ import net.minecraftforge.fml.client.registry.IRenderFactory;
 
 public class RenderDean extends RenderLiving<Deanmod> {
 
-    private ResourceLocation mobTexture = new ResourceLocation("frc:textures/entity/Dean.png");
+    public ResourceLocation mobTexture = new ResourceLocation(main.modId+":"+"entity/dean.png");
 
     public static final Factory FACTORY = new Factory();
 

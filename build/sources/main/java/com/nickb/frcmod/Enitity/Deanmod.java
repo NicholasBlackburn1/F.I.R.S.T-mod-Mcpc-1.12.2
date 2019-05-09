@@ -39,7 +39,7 @@ public class Deanmod extends EntityMob {
     private static final DataParameter<Boolean> ARMS_RAISED = EntityDataManager.createKey(EntityZombie.class,
             DataSerializers.BOOLEAN);
 
-    public static final ResourceLocation LOOT = new ResourceLocation(main.modId+"entitys/dean");
+    public static final ResourceLocation LOOT = new ResourceLocation(main.modId+"entity/dean");
 
     public Deanmod(World worldIn) {
         super(worldIn);
