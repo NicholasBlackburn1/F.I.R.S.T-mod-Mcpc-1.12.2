@@ -12,7 +12,11 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+<<<<<<< HEAD
 @Mod.EventBusSubscriber(Side.CLIENT)
+=======
+@SideOnly(side.Client)
+>>>>>>> master
 public class Clientproxy extends Commonproxy{
      @Override
     public void preInit(FMLPreInitializationEvent e) {
@@ -24,6 +28,10 @@ public class Clientproxy extends Commonproxy{
          super.init(e);
          RegisterEntity.initModels();
     }
+    @Override
+     public void Init(FMLInitializationEvent event) {
+          RegisterEntity.initModels();
+     }
     @Override
     public void registerItemRenderer(Item item, int meta, String id) {
 	  ModelLoader.setCustomModelResourceLocation(item, meta, new ModelResourceLocation(main.modId + ":" + id, "inventory"));

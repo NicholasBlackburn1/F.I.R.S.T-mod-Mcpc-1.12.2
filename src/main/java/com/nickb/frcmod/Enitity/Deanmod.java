@@ -19,6 +19,7 @@ import net.minecraft.entity.ai.EntityAIWatchClosest;
 import net.minecraft.entity.monster.EntityIronGolem;
 import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.monster.EntityPigZombie;
+import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.entity.passive.EntityVillager;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.MobEffects;
@@ -35,10 +36,10 @@ public class Deanmod extends EntityMob {
 
     // We reuse the zombie model which has arms that need to be raised when the
     // zombie is attacking:
-    private static final DataParameter<Boolean> ARMS_RAISED = EntityDataManager.createKey(EntityPigZombie.class,
+    private static final DataParameter<Boolean> ARMS_RAISED = EntityDataManager.createKey(EntityZombie.class,
             DataSerializers.BOOLEAN);
 
-    public static final ResourceLocation LOOT = new ResourceLocation(main.modId+":"+"textures/entity/Dean");
+    public static final ResourceLocation LOOT = new ResourceLocation(main.modId+":"+"entity/Dean");
 
     public Deanmod(World worldIn) {
         super(worldIn);

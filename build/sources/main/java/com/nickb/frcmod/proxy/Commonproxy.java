@@ -7,6 +7,10 @@ import java.lang.reflect.Proxy;
 
 import com.nickb.frcmod.main;
 import com.nickb.frcmod.Enitity.RegisterEntity;
+<<<<<<< HEAD
+=======
+import com.nickb.frcmod.blocks.*;
+>>>>>>> master
 import com.nickb.frcmod.items.RegisterItems;
 
 import net.minecraft.item.Item;
@@ -18,13 +22,52 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 @Mod.EventBusSubscriber
 public class Commonproxy{
      Proxy proxy;
+<<<<<<< HEAD
 		 public void preInit(FMLPreInitializationEvent e) {
 			 RegisterEntity.init();
     }
+=======
+     @Override
+    public void preInit(FMLPreInitializationEvent event) {
+          System.out.println(main.name + " is loading!");
+		      RegisterEntity.init();
+     }
+     
+     @Override
+    public void Init(FMLInitializationEvent event) {
+          RegisterEntity.initModels();
+     }
+
+     @Override
+    public void postInit(FMLPostInitializationEvent event) {
+     
+     }
+    public void registerItemRenderer(Item item, int meta, String id) {
+       
+>>>>>>> master
 
     public void init(FMLInitializationEvent e) {
     }
+    @Mod.EventBusSubscriber
+	public static class RegistrationHandler {
+		// Register Item's --> models / texture
+		@SubscribeEvent
+		public static void registerItems(RegistryEvent.Register<Item> event) {
+			RegisterItems.register(event.getRegistry());
+			Registerblocks.registerItemBlocks(event.getRegistry());
+		}
+		@SubscribeEvent
+		public static void registerBlocks(RegistryEvent.Register<Block> event) {
+		  Registerblocks.register(event.getRegistry());
+		}
+		@SubscribeEvent
+		public static void registerModels(ModelRegistryEvent event) {
+				
+			Registerblocks.registerModels();
+			RegisterItems.registerModels();
 
+
+<<<<<<< HEAD
     public void postInit(FMLPostInitializationEvent e) {
 
 		}
@@ -32,6 +75,10 @@ public class Commonproxy{
     @SubscribeEvent
     public void registerItemRenderer(Item item, int meta, String id) {
     
+=======
+	  public String localize(String unlocalized, Object... args) {
+		return I18n.translateToLocalFormatted(unlocalized, args);
+      }
+>>>>>>> master
     }
- 
 }
