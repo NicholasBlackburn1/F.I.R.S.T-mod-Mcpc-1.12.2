@@ -1,206 +1,152 @@
-[16:36:13] [main/INFO] [GradleStart]: Extra: []
-[16:36:13] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, /home/nickthehacker/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[16:36:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[16:36:14] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[16:36:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[16:36:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[16:36:14] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
-[16:36:14] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_191, running on Linux:amd64:4.15.0-47-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[16:36:14] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[16:36:14] [main/ERROR] [FML]: Full: /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4/maven-artifact-3.5.3.jar
-[16:36:14] [main/ERROR] [FML]: Trimmed: /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[16:36:14] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[16:36:14] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[16:36:17] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[16:36:17] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[16:36:17] [main/INFO] [FML]: Searching /home/nickthehacker/Documents/MinecraftForge/F.I.R.S.T robotics forge mod/run/./mods for mods
-[16:36:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[16:36:17] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[16:36:17] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[16:36:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:36:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[16:36:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[16:36:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:36:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:36:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:36:19] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[16:36:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:36:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[16:36:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[16:36:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[16:36:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[16:36:22] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[16:36:43] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player372
-[16:36:47] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[16:36:47] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[16:36:50] [main/INFO] [FML]: -- System Details --
+[10:15:08] [main/INFO] [GradleStart]: Extra: []
+[10:15:08] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, /home/nickthehacker/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[10:15:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:15:08] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:15:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:15:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:15:08] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[10:15:08] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_191, running on Linux:amd64:4.18.0-15-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[10:15:08] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[10:15:08] [main/ERROR] [FML]: Full: /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4/maven-artifact-3.5.3.jar
+[10:15:08] [main/ERROR] [FML]: Trimmed: /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[10:15:09] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[10:15:09] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[10:15:10] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[10:15:10] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[10:15:10] [main/INFO] [FML]: Searching /home/nickthehacker/Documents/F.I.R.S.T-mod-Mcpc-1.12.2/run/./mods for mods
+[10:15:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:15:10] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[10:15:10] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[10:15:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:15:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:15:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[10:15:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:15:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:15:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:15:13] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[10:15:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:15:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:15:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[10:15:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:15:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:15:14] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[10:15:16] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player773
+[10:15:25] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[10:15:25] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[10:15:27] [main/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
-	Operating System: Linux (amd64) version 4.15.0-47-generic
+	Operating System: Linux (amd64) version 4.18.0-15-generic
 	Java Version: 1.8.0_191, Oracle Corporation
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 181571752 bytes (173 MB) / 389021696 bytes (371 MB) up to 1832910848 bytes (1748 MB)
+	Memory: 302849248 bytes (288 MB) / 457179136 bytes (436 MB) up to 1832910848 bytes (1748 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
-	GL info: ' Vendor: 'Intel Open Source Technology Center' Version: '3.0 Mesa 18.2.8' Renderer: 'Mesa DRI Intel(R) UHD Graphics 620 (Kabylake GT2) '
-[16:36:50] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
-[16:36:50] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[16:36:50] [main/INFO] [FML]: Replaced 1036 ore ingredients
-[16:36:51] [main/INFO] [FML]: Searching /home/nickthehacker/Documents/MinecraftForge/F.I.R.S.T robotics forge mod/run/./mods for mods
-[16:36:54] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
-[16:36:54] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 185486050 nanos
-[16:36:55] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, frc] at CLIENT
-[16:36:55] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, frc] at SERVER
-[16:36:57] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:F.I.R.S.T Robotics mod 
-[16:36:58] [main/INFO] [FML]: Processing ObjectHolder annotations
-[16:36:58] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
-[16:36:58] [main/INFO] [FML]: Identifying ItemStackHolder annotations
-[16:36:58] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
-[16:36:58] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
-[16:36:58] [main/INFO] [STDOUT]: [com.nickb.frcmod.main:preInit:40]: F.I.R.S.T Robotics mod is loading!
-[16:36:58] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[16:36:58] [main/INFO] [FML]: Applying holder lookups
-[16:36:58] [main/INFO] [FML]: Holder lookups applied
-[16:36:58] [main/INFO] [FML]: Applying holder lookups
-[16:36:58] [main/INFO] [FML]: Holder lookups applied
-[16:36:58] [main/INFO] [FML]: Applying holder lookups
-[16:36:58] [main/INFO] [FML]: Holder lookups applied
-[16:36:59] [main/INFO] [FML]: Applying holder lookups
-[16:36:59] [main/INFO] [FML]: Holder lookups applied
-[16:36:59] [main/INFO] [FML]: Injecting itemstacks
-[16:36:59] [main/INFO] [FML]: Itemstack injection complete
-[16:37:00] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
-[16:37:01] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[16:37:01] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[16:37:01] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[16:37:02] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[16:37:02] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[16:37:05] [main/INFO] [FML]: Max texture size: 16384
-[16:37:06] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
-[16:37:09] [main/ERROR] [FML]: Exception loading model for variant frc:wire#inventory for item "frc:wire", normal location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model frc:item/wire with loader VanillaLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_191]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_191]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_191]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_191]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_191]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_191]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: java.io.FileNotFoundException: frc:models/item/wire.json
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[16:37:09] [main/ERROR] [FML]: Exception loading model for variant frc:wire#inventory for item "frc:wire", blockstate location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model frc:wire#inventory with loader VariantLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_191]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_191]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_191]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_191]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_191]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_191]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
-	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[16:37:11] [main/INFO] [FML]: Applying holder lookups
-[16:37:11] [main/INFO] [FML]: Holder lookups applied
-[16:37:11] [main/INFO] [FML]: Injecting itemstacks
-[16:37:11] [main/INFO] [FML]: Itemstack injection complete
-[16:37:12] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
-[16:37:12] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[16:37:12] [main/INFO] [com.mojang.text2speech.NarratorLinux]: Narrator library successfully loaded
-[16:37:12] [main/ERROR] [FML.TEXTURE_ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-[16:37:12] [main/ERROR] [FML.TEXTURE_ERRORS]: The following texture errors were found.
-[16:37:12] [main/ERROR] [FML.TEXTURE_ERRORS]: ==================================================
-[16:37:12] [main/ERROR] [FML.TEXTURE_ERRORS]:   DOMAIN frc
-[16:37:12] [main/ERROR] [FML.TEXTURE_ERRORS]: --------------------------------------------------
-[16:37:12] [main/ERROR] [FML.TEXTURE_ERRORS]:   domain frc is missing 2 textures
-[16:37:12] [main/ERROR] [FML.TEXTURE_ERRORS]:     domain frc has 1 location:
-[16:37:12] [main/ERROR] [FML.TEXTURE_ERRORS]:       mod frc resources at /home/nickthehacker/Documents/MinecraftForge/F.I.R.S.T robotics forge mod/build/libs/frc-1.0.jar
-[16:37:12] [main/ERROR] [FML.TEXTURE_ERRORS]: -------------------------
-[16:37:12] [main/ERROR] [FML.TEXTURE_ERRORS]:     The missing resources for domain frc are:
-[16:37:12] [main/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/weels.png
-[16:37:12] [main/ERROR] [FML.TEXTURE_ERRORS]:       textures/items/pdp.png
-[16:37:12] [main/ERROR] [FML.TEXTURE_ERRORS]: -------------------------
-[16:37:12] [main/ERROR] [FML.TEXTURE_ERRORS]:     No other errors exist for domain frc
-[16:37:12] [main/ERROR] [FML.TEXTURE_ERRORS]: ==================================================
-[16:37:12] [main/ERROR] [FML.TEXTURE_ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-[16:37:15] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[16:38:16] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[16:38:16] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[16:38:16] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[16:38:17] [Server thread/INFO] [FML]: Applying holder lookups
-[16:38:17] [Server thread/INFO] [FML]: Holder lookups applied
-[16:38:17] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@30bd92a0)
-[16:38:17] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[16:38:17] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@30bd92a0)
-[16:38:17] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@30bd92a0)
-[16:38:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[16:38:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 27%
-[16:38:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 51%
-[16:38:21] [Server thread/INFO] [FML]: Unloading dimension -1
-[16:38:21] [Server thread/INFO] [FML]: Unloading dimension 1
-[16:38:21] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
-[16:38:22] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[16:38:22] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[16:38:22] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2768,frc@1.0.0,mcp@9.42
-[16:38:22] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[16:38:22] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[16:38:22] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player372[local:E:aa6055d0] logged in with entity id 361 at (89.68185277654901, 72.0, 271.14306206150496)
-[16:38:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player372 joined the game
-[16:38:24] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[16:38:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[16:38:25] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] F.I.R.S.T Robotics  Is Loaded
-[16:38:25] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2723ms behind, skipping 54 tick(s)
-[16:38:33] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[16:38:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[16:38:35] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[16:38:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[16:38:45] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[16:38:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[16:38:48] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[16:38:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[16:38:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[16:38:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[16:38:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[16:38:48] [Server thread/INFO] [FML]: Unloading dimension 0
-[16:38:49] [Server thread/INFO] [FML]: Applying holder lookups
-[16:38:49] [Server thread/INFO] [FML]: Holder lookups applied
-[16:38:49] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[16:38:49] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+	GL info: ' Vendor: 'Intel Open Source Technology Center' Version: '3.0 Mesa 18.2.2' Renderer: 'Mesa DRI Intel(R) UHD Graphics 620 (Kabylake GT2) '
+[10:15:27] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[10:15:27] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[10:15:28] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[10:15:29] [main/INFO] [FML]: Searching /home/nickthehacker/Documents/F.I.R.S.T-mod-Mcpc-1.12.2/run/./mods for mods
+[10:15:32] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 211545983 nanos
+[10:15:33] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[10:15:34] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, frc] at CLIENT
+[10:15:34] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, frc] at SERVER
+[10:15:35] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:F.I.R.S.T Robotics mod 
+[10:15:35] [main/INFO] [FML]: Processing ObjectHolder annotations
+[10:15:35] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[10:15:35] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[10:15:35] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[10:15:36] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[10:15:36] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[10:15:36] [main/INFO] [STDOUT]: [com.nickb.frcmod.proxy.Commonproxy:preInit:23]: F.I.R.S.T Robotics mod is loading!
+[10:15:36] [main/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:629]: ---- Minecraft Crash Report ----
+// Don't be sad. I'll do better next time, I promise!
+
+Time: 5/9/19 10:15 AM
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from F.I.R.S.T Robotics mod  (frc)
+Caused by: java.lang.NullPointerException
+	at net.minecraftforge.registries.IForgeRegistryEntry$Impl.setRegistryName(IForgeRegistryEntry.java:79)
+	at net.minecraftforge.fml.common.registry.EntityRegistry.doModEntityRegistration(EntityRegistry.java:205)
+	at net.minecraftforge.fml.common.registry.EntityRegistry.registerModEntity(EntityRegistry.java:192)
+	at com.nickb.frcmod.Enitity.RegisterEntity.init(RegisterEntity.java:20)
+	at com.nickb.frcmod.proxy.Commonproxy.preInit(Commonproxy.java:24)
+	at com.nickb.frcmod.main.preInit(main.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:626)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:218)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:196)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:135)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:627)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+	at net.minecraft.client.Minecraft.init(Minecraft.java:513)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 4.18.0-15-generic
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 144890600 bytes (138 MB) / 570949632 bytes (544 MB) up to 1832910848 bytes (1748 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2768 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID        | Version      | Source                           | Signature |
+	|:----- |:--------- |:------------ |:-------------------------------- |:--------- |
+	| UCH   | minecraft | 1.12.2       | minecraft.jar                    | None      |
+	| UCH   | mcp       | 9.42         | minecraft.jar                    | None      |
+	| UCH   | FML       | 8.0.99.99    | forgeSrc-1.12.2-14.23.5.2768.jar | None      |
+	| UCH   | forge     | 14.23.5.2768 | forgeSrc-1.12.2-14.23.5.2768.jar | None      |
+	| UCEE  | frc       | 1.0.0        | frc-1.0.jar                      | None      |
+
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'Intel Open Source Technology Center' Version: '3.0 Mesa 18.2.2' Renderer: 'Mesa DRI Intel(R) UHD Graphics 620 (Kabylake GT2) '
+[10:15:36] [main/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:629]: #@!@# Game crashed! Crash report saved to: #@!@# /home/nickthehacker/Documents/F.I.R.S.T-mod-Mcpc-1.12.2/run/./crash-reports/crash-2019-05-09_10.15.36-client.txt
