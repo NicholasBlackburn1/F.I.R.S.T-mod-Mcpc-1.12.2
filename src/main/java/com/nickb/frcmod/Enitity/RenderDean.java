@@ -11,7 +11,7 @@ import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.client.registry.IRenderFactory;
 
-public class RenderDean extends RenderLiving<Deanmod> {
+public class RenderDean extends RenderLiving<Dean> {
 
     public ResourceLocation mobTexture = new ResourceLocation(main.modId+":"+"entity/dean.png");
 
@@ -25,14 +25,14 @@ public class RenderDean extends RenderLiving<Deanmod> {
 
     @Override
     @Nonnull
-    protected ResourceLocation getEntityTexture(@Nonnull Deanmod entity) {
+    protected ResourceLocation getEntityTexture(@Nonnull Dean entity) {
         return mobTexture;
     }
 
-    public static class Factory implements IRenderFactory<Deanmod> {
+    public static class Factory implements IRenderFactory<Dean> {
 
         @Override
-        public Render<? super Deanmod> createRenderFor(RenderManager manager) {
+        public Render<? super Dean> createRenderFor(RenderManager manager) {
             return new RenderDean(manager);
         }
 

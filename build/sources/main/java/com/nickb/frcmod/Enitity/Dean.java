@@ -32,7 +32,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class Deanmod extends EntityMob {
+public class Dean extends EntityMob {
 
     // We reuse the zombie model which has arms that need to be raised when the
     // zombie is attacking:
@@ -41,7 +41,7 @@ public class Deanmod extends EntityMob {
 
     public static final ResourceLocation LOOT = new ResourceLocation(main.modId+"entity/dean");
 
-    public Deanmod(World worldIn) {
+    public Dean(World worldIn) {
         super(worldIn);
         setSize(0.6F, 1.95F);
     }
@@ -57,7 +57,7 @@ public class Deanmod extends EntityMob {
         super.applyEntityAttributes();
         // Here we set various attributes for our mob. Like maximum health, armor, speed, ...
         this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(35.0D);
-        this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.13D);
+        this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(10.50D);
         this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(3.0D);
         this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(2.0D);
     }

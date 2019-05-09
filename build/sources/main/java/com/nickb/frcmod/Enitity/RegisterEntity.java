@@ -19,20 +19,20 @@ public class RegisterEntity {
         // Every entity in our mod has an ID (local to this mod)
        
         int id = 1;
-        EntityRegistry.registerModEntity(dean, Deanmod.class, "Dean_kamen", id++, main.instance, 64, 3, true, 0x996600,
+        EntityRegistry.registerModEntity(dean, Dean.class, "Dean_kamen", id++, main.instance, 64, 3, true, 0x996600,
                 0x00ff00);
 
         // We want our mob to spawn in Plains and ice plains biomes. If you don't add
         // this then it will not spawn automatically
         // but you can of course still make it spawn manually
-        EntityRegistry.addSpawn(Deanmod.class, 100, 3, 5, EnumCreatureType.MONSTER, Biomes.PLAINS, Biomes.ICE_PLAINS);
+        EntityRegistry.addSpawn(Dean.class, 100, 3, 5, EnumCreatureType.MONSTER, Biomes.PLAINS, Biomes.ICE_PLAINS);
 
         // This is the loot table for our mob
-        LootTableList.register(Deanmod.LOOT);
+        LootTableList.register(Dean.LOOT);
     }
 
     @SideOnly(Side.CLIENT)
     public static void initModels() {
-        RenderingRegistry.registerEntityRenderingHandler(Deanmod.class, RenderDean.FACTORY);
+        RenderingRegistry.registerEntityRenderingHandler(Dean.class, RenderDean.FACTORY);
         }
 }
