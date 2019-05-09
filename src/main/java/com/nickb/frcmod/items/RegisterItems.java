@@ -31,7 +31,7 @@ public static void registerModels() {
 	//wire.registerItemModel();
 	roborio.registerItemModel();
 	tallonsrx.registerItemModel();
-	weels.registerItemModel();
+	//eels.registerItemModel();
 	//pdp.registerItemModel();
 
     }
