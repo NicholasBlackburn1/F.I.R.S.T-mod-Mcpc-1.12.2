@@ -38,20 +38,19 @@ public class main {
 
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-		System.out.println(name + " is loading!");
-		RegisterEntity.init();
+		proxy.preInit(event);
 	}
 
 	//
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event) {
-		RegisterEntity.init();
+		proxy.Init(event);
 	}
 
 	// Post Forge Init
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
-		RegisterEntity.init();
+		proxy.postInit(event);
 	}
 	// Item Register handler --> registers item textures
 	@Mod.EventBusSubscriber
