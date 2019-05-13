@@ -1,4 +1,4 @@
-package com.nickb.frcmod.Enitity;
+package com.nickb.frcmod.Enitity.Dean;
 
 import javax.annotation.Nullable;
 

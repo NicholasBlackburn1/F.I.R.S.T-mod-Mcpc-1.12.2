@@ -1,8 +1,13 @@
 package com.nickb.frcmod.Enitity;
 
-import static com.nickb.frcmod.Enitity.RenderDean.FACTORY;
+import static com.nickb.frcmod.Enitity.Robot.RenderRobot.FACTORY;
+
+import java.awt.Robot;
 
 import com.nickb.frcmod.main;
+import com.nickb.frcmod.Enitity.Dean.Dean;
+import com.nickb.frcmod.Enitity.Dean.RenderDean;
+import com.nickb.frcmod.Enitity.Robot.RenderRobot;
 
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.init.Biomes;
@@ -14,14 +19,17 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class RegisterEntity {
-    static ResourceLocation dean = new ResourceLocation(main.modId+":"+"entity/dean.png");
+    static ResourceLocation robot = new ResourceLocation(main.modId + ":" + "entity/robot.png");
+    static ResourceLocation dean = new ResourceLocation(main.modId + ":" + "entity/dean.png");
+
     public static void init() {
         // Every entity in our mod has an ID (local to this mod)
-       
+
         int id = 1;
         EntityRegistry.registerModEntity(dean, Dean.class, "Dean_kamen", id++, main.instance, 64, 3, true, 0x996600,
                 0x00ff00);
-
+        /*EntityRegistry.registerModEntity(robot, com.nickb.frcmod.Enitity.Robot.robot.class, "frcbot", id++, main.instance, 64, 3, true, 0x996600,
+                0x00ff00);*/
         // We want our mob to spawn in Plains and ice plains biomes. If you don't add
         // this then it will not spawn automatically
         // but you can of course still make it spawn manually
@@ -34,5 +42,7 @@ public class RegisterEntity {
     @SideOnly(Side.CLIENT)
     public static void initModels() {
         RenderingRegistry.registerEntityRenderingHandler(Dean.class, RenderDean.FACTORY);
+       /* RenderingRegistry.registerEntityRenderingHandler(com.nickb.frcmod.Enitity.Robot.robot.class,
+                RenderRobot.FACTORY);*/
         }
 }

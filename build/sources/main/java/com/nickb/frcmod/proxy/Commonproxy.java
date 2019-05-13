@@ -27,7 +27,8 @@ public class Commonproxy{
 
     public void preInit(FMLPreInitializationEvent event){
           System.out.println(main.name + " is loading!");
-		      RegisterEntity.init();
+              RegisterEntity.init();
+              RegisterEntity.init();
      }
     public void Init(FMLInitializationEvent event){
        
@@ -60,6 +61,7 @@ public class Commonproxy{
         Registerblocks.registerModels();
         RegisterItems.registerModels();
         RegisterEntity.initModels();
+        
     }
 
     @SubscribeEvent
