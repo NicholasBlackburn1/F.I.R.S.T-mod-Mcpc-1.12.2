@@ -1,71 +1,71 @@
-[14:57:52] [main/INFO]: Extra: []
-[14:57:52] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, /home/nickthehacker/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[14:57:52] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[14:57:52] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[14:57:52] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[14:57:52] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[14:57:52] [main/INFO]: Forge Mod Loader version 14.23.5.2816 for Minecraft 1.12.2 loading
-[14:57:52] [main/INFO]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_191, running on Linux:amd64:4.18.0-15-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[14:57:52] [main/ERROR]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[14:57:52] [main/ERROR]: Full: /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4/maven-artifact-3.5.3.jar
-[14:57:52] [main/ERROR]: Trimmed: /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[14:57:52] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[14:57:52] [main/INFO]: Detected deobfuscated environment, loading log configs for colored console logs.
-[14:57:53] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugininecraftFormatting
-[14:57:53] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugininecraftFormatting
-[14:57:53] [main/INFO] [FML]: Searching /home/nickthehacker/Documents/F.I.R.S.T-mod-Mcpc-1.12.2/run/./mods for modsinecraftFormatting
-[14:57:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweakerinecraftFormatting
-[14:57:53] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugininecraftFormatting
-[14:57:53] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugininecraftFormatting
-[14:57:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
-[14:57:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweakerinecraftFormatting
-[14:57:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweakerinecraftFormatting
-[14:57:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
-[14:57:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
-[14:57:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapperinecraftFormatting
-[14:57:54] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thinginecraftFormatting
-[14:57:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapperinecraftFormatting
-[14:57:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweakerinecraftFormatting
-[14:57:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweakerinecraftFormatting
-[14:57:55] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweakerinecraftFormatting
-[14:57:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweakerinecraftFormatting
-[14:57:55] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}inecraftFormatting
-[14:57:57] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player632inecraftFormatting
-[14:58:02] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:inecraftFormatting
-[14:58:02] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4inecraftFormatting
-[14:58:02] [Client thread/INFO] [FML]: -- System Details --
+[09:52:23] [main/INFO]: Extra: []
+[09:52:23] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, /home/nickthehacker/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[09:52:23] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:52:23] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:52:23] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[09:52:23] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:52:23] [main/INFO]: Forge Mod Loader version 14.23.5.2816 for Minecraft 1.12.2 loading
+[09:52:23] [main/INFO]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_191, running on Linux:amd64:4.18.0-15-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[09:52:24] [main/ERROR]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[09:52:24] [main/ERROR]: Full: /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4/maven-artifact-3.5.3.jar
+[09:52:24] [main/ERROR]: Trimmed: /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[09:52:24] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[09:52:24] [main/INFO]: Detected deobfuscated environment, loading log configs for colored console logs.
+[09:52:24] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugininecraftFormatting
+[09:52:24] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugininecraftFormatting
+[09:52:24] [main/INFO] [FML]: Searching /home/nickthehacker/Documents/F.I.R.S.T-mod-Mcpc-1.12.2/run/./mods for modsinecraftFormatting
+[09:52:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweakerinecraftFormatting
+[09:52:24] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugininecraftFormatting
+[09:52:24] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugininecraftFormatting
+[09:52:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
+[09:52:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweakerinecraftFormatting
+[09:52:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweakerinecraftFormatting
+[09:52:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
+[09:52:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
+[09:52:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapperinecraftFormatting
+[09:52:26] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thinginecraftFormatting
+[09:52:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapperinecraftFormatting
+[09:52:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweakerinecraftFormatting
+[09:52:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweakerinecraftFormatting
+[09:52:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweakerinecraftFormatting
+[09:52:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweakerinecraftFormatting
+[09:52:26] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}inecraftFormatting
+[09:52:28] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player717inecraftFormatting
+[09:52:35] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:inecraftFormatting
+[09:52:35] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4inecraftFormatting
+[09:52:36] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Linux (amd64) version 4.18.0-15-generic
 	Java Version: 1.8.0_191, Oracle Corporation
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 302182600 bytes (288 MB) / 445120512 bytes (424 MB) up to 1832910848 bytes (1748 MB)
+	Memory: 492549312 bytes (469 MB) / 594542592 bytes (567 MB) up to 1832910848 bytes (1748 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'Intel Open Source Technology Center' Version: '3.0 Mesa 18.2.8' Renderer: 'Mesa DRI Intel(R) UHD Graphics 620 (Kabylake GT2) 'inecraftFormatting
-[14:58:03] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2816 InitializedinecraftFormatting
-[14:58:03] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.inecraftFormatting
-[14:58:03] [Client thread/INFO] [FML]: Replaced 1036 ore ingredientsinecraftFormatting
-[14:58:03] [Client thread/INFO] [FML]: Searching /home/nickthehacker/Documents/F.I.R.S.T-mod-Mcpc-1.12.2/run/./mods for modsinecraftFormatting
-[14:58:06] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 123780279 nanosinecraftFormatting
-[14:58:07] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to loadinecraftFormatting
-[14:58:07] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, frc] at CLIENTinecraftFormatting
-[14:58:07] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, frc] at SERVERinecraftFormatting
-[14:58:08] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:F.I.R.S.T Robotics mod inecraftFormatting
-[14:58:08] [Client thread/INFO] [FML]: Processing ObjectHolder annotationsinecraftFormatting
-[14:58:08] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotationsinecraftFormatting
-[14:58:08] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotationsinecraftFormatting
-[14:58:08] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotationsinecraftFormatting
-[14:58:08] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0inecraftFormatting
-[14:58:08] [Client thread/INFO] [STDOUT]: [com.nickb.frcmod.proxy.Commonproxy:preInit:29]: F.I.R.S.T Robotics mod is loading!inecraftFormatting
-[14:58:08] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.jsoninecraftFormatting
-[14:58:08] [Client thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.monster.EntityZombie from class com.nickb.frcmod.Enitity.Dean.DeaninecraftFormatting
-[14:58:08] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:553]: ---- Minecraft Crash Report ----
-// Sorry :(
+[09:52:36] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2816 InitializedinecraftFormatting
+[09:52:36] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.inecraftFormatting
+[09:52:37] [Client thread/INFO] [FML]: Replaced 1036 ore ingredientsinecraftFormatting
+[09:52:38] [Client thread/INFO] [FML]: Searching /home/nickthehacker/Documents/F.I.R.S.T-mod-Mcpc-1.12.2/run/./mods for modsinecraftFormatting
+[09:52:40] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to loadinecraftFormatting
+[09:52:40] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 542410819 nanosinecraftFormatting
+[09:52:41] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, frc] at CLIENTinecraftFormatting
+[09:52:41] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, frc] at SERVERinecraftFormatting
+[09:52:42] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:F.I.R.S.T Robotics mod inecraftFormatting
+[09:52:42] [Client thread/INFO] [FML]: Processing ObjectHolder annotationsinecraftFormatting
+[09:52:42] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotationsinecraftFormatting
+[09:52:42] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotationsinecraftFormatting
+[09:52:42] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotationsinecraftFormatting
+[09:52:42] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0inecraftFormatting
+[09:52:42] [Client thread/INFO] [STDOUT]: [com.nickb.frcmod.proxy.Commonproxy:preInit:29]: F.I.R.S.T Robotics mod is loading!inecraftFormatting
+[09:52:42] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.jsoninecraftFormatting
+[09:52:42] [Client thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.monster.EntityZombie from class com.nickb.frcmod.Enitity.Dean.DeaninecraftFormatting
+[09:52:42] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:553]: ---- Minecraft Crash Report ----
+// I blame Dinnerbone.
 
-Time: 5/10/19 2:58 PM
+Time: 5/13/19 9:52 AM
 Description: There was a severe problem during mod loading that has caused the game to fail
 
 net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from F.I.R.S.T Robotics mod  (frc)
@@ -75,7 +75,7 @@ Caused by: java.lang.RuntimeException: Duplicate stat id: "TranslatableComponent
 	at net.minecraft.entity.EntityList$EntityEggInfo.<init>(EntityList.java:450)
 	at net.minecraftforge.fml.common.registry.EntityRegistry.registerEgg(EntityRegistry.java:242)
 	at net.minecraftforge.fml.common.registry.EntityRegistry.registerModEntity(EntityRegistry.java:193)
-	at com.nickb.frcmod.Enitity.RegisterEntity.init(RegisterEntity.java:22)
+	at com.nickb.frcmod.Enitity.RegisterEntity.init(RegisterEntity.java:31)
 	at com.nickb.frcmod.proxy.Commonproxy.preInit(Commonproxy.java:31)
 	at com.nickb.frcmod.main.preInit(main.java:41)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -136,7 +136,7 @@ Details:
 	Operating System: Linux (amd64) version 4.18.0-15-generic
 	Java Version: 1.8.0_191, Oracle Corporation
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 182581816 bytes (174 MB) / 472383488 bytes (450 MB) up to 1832910848 bytes (1748 MB)
+	Memory: 463449960 bytes (441 MB) / 594542592 bytes (567 MB) up to 1832910848 bytes (1748 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: MCP 9.42 Powered by Forge 14.23.5.2816 5 mods loaded, 5 mods active
@@ -152,4 +152,4 @@ Details:
 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'Intel Open Source Technology Center' Version: '3.0 Mesa 18.2.8' Renderer: 'Mesa DRI Intel(R) UHD Graphics 620 (Kabylake GT2) 'inecraftFormatting
-[14:58:08] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:553]: #@!@# Game crashed! Crash report saved to: #@!@# /home/nickthehacker/Documents/F.I.R.S.T-mod-Mcpc-1.12.2/run/./crash-reports/crash-2019-05-10_14.58.08-client.txtinecraftFormatting
+[09:52:42] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:553]: #@!@# Game crashed! Crash report saved to: #@!@# /home/nickthehacker/Documents/F.I.R.S.T-mod-Mcpc-1.12.2/run/./crash-reports/crash-2019-05-13_09.52.42-client.txtinecraftFormatting

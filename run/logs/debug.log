@@ -1,357 +1,358 @@
-[14:57:53] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugininecraftFormatting
-[14:57:53] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugininecraftFormatting
-[14:57:53] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformersinecraftFormatting
-[14:57:53] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugininecraftFormatting
-[14:57:53] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugininecraftFormatting
-[14:57:53] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugininecraftFormatting
-[14:57:53] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugininecraftFormatting
-[14:57:53] [main/DEBUG] [FML]: All fundamental core mods are successfully locatedinecraftFormatting
-[14:57:53] [main/DEBUG] [FML]: Discovering coremodsinecraftFormatting
-[14:57:53] [main/INFO] [FML]: Searching /home/nickthehacker/Documents/F.I.R.S.T-mod-Mcpc-1.12.2/run/./mods for modsinecraftFormatting
-[14:57:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweakerinecraftFormatting
-[14:57:53] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugininecraftFormatting
-[14:57:53] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugininecraftFormatting
-[14:57:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
-[14:57:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweakerinecraftFormatting
-[14:57:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweakerinecraftFormatting
-[14:57:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
-[14:57:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
-[14:57:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapperinecraftFormatting
-[14:57:53] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformersinecraftFormatting
-[14:57:53] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformerinecraftFormatting
-[14:57:53] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformerinecraftFormatting
-[14:57:53] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformerinecraftFormatting
-[14:57:53] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformerinecraftFormatting
-[14:57:53] [main/DEBUG] [FML]: Injection completeinecraftFormatting
-[14:57:53] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}inecraftFormatting
-[14:57:53] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugininecraftFormatting
-[14:57:53] [main/DEBUG] [FML]: Loading deobfuscation resource /home/nickthehacker/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_snapshot/20171003/1.12.2/srgs/srg-mcp.srg with 36076 recordsinecraftFormatting
-[14:57:54] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thinginecraftFormatting
-[14:57:54] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfullyinecraftFormatting
-[14:57:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapperinecraftFormatting
-[14:57:54] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformersinecraftFormatting
-[14:57:54] [main/DEBUG] [FML]: Injection completeinecraftFormatting
-[14:57:54] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}inecraftFormatting
-[14:57:54] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugininecraftFormatting
-[14:57:54] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfullyinecraftFormatting
-[14:57:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweakerinecraftFormatting
-[14:57:54] [main/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfginecraftFormatting
-[14:57:54] [main/DEBUG] [FML]: Validating minecraftinecraftFormatting
-[14:57:55] [main/DEBUG] [FML]: Minecraft validated, launching...inecraftFormatting
-[14:57:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweakerinecraftFormatting
-[14:57:55] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweakerinecraftFormatting
-[14:57:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweakerinecraftFormatting
-[14:57:55] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}inecraftFormatting
-[14:57:57] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player632inecraftFormatting
-[14:58:01] [Client thread/DEBUG] [FML]: Creating vanilla freeze snapshotinecraftFormatting
-[14:58:01] [Client thread/DEBUG] [FML]: Vanilla freeze snapshot createdinecraftFormatting
-[14:58:02] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:inecraftFormatting
-[14:58:02] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4inecraftFormatting
-[14:58:02] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - LanguageManager took 0.003sinecraftFormatting
-[14:58:02] [Client thread/INFO] [FML]: -- System Details --
+[09:52:24] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugininecraftFormatting
+[09:52:24] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugininecraftFormatting
+[09:52:24] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformersinecraftFormatting
+[09:52:24] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugininecraftFormatting
+[09:52:24] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugininecraftFormatting
+[09:52:24] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugininecraftFormatting
+[09:52:24] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugininecraftFormatting
+[09:52:24] [main/DEBUG] [FML]: All fundamental core mods are successfully locatedinecraftFormatting
+[09:52:24] [main/DEBUG] [FML]: Discovering coremodsinecraftFormatting
+[09:52:24] [main/INFO] [FML]: Searching /home/nickthehacker/Documents/F.I.R.S.T-mod-Mcpc-1.12.2/run/./mods for modsinecraftFormatting
+[09:52:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweakerinecraftFormatting
+[09:52:24] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugininecraftFormatting
+[09:52:24] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugininecraftFormatting
+[09:52:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
+[09:52:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweakerinecraftFormatting
+[09:52:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweakerinecraftFormatting
+[09:52:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
+[09:52:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
+[09:52:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapperinecraftFormatting
+[09:52:24] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformersinecraftFormatting
+[09:52:24] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformerinecraftFormatting
+[09:52:24] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformerinecraftFormatting
+[09:52:24] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformerinecraftFormatting
+[09:52:24] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformerinecraftFormatting
+[09:52:24] [main/DEBUG] [FML]: Injection completeinecraftFormatting
+[09:52:24] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}inecraftFormatting
+[09:52:24] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugininecraftFormatting
+[09:52:25] [main/DEBUG] [FML]: Loading deobfuscation resource /home/nickthehacker/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_snapshot/20171003/1.12.2/srgs/srg-mcp.srg with 36076 recordsinecraftFormatting
+[09:52:26] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thinginecraftFormatting
+[09:52:26] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfullyinecraftFormatting
+[09:52:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapperinecraftFormatting
+[09:52:26] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformersinecraftFormatting
+[09:52:26] [main/DEBUG] [FML]: Injection completeinecraftFormatting
+[09:52:26] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}inecraftFormatting
+[09:52:26] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugininecraftFormatting
+[09:52:26] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfullyinecraftFormatting
+[09:52:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweakerinecraftFormatting
+[09:52:26] [main/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfginecraftFormatting
+[09:52:26] [main/DEBUG] [FML]: Validating minecraftinecraftFormatting
+[09:52:26] [main/DEBUG] [FML]: Minecraft validated, launching...inecraftFormatting
+[09:52:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweakerinecraftFormatting
+[09:52:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweakerinecraftFormatting
+[09:52:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweakerinecraftFormatting
+[09:52:26] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}inecraftFormatting
+[09:52:28] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player717inecraftFormatting
+[09:52:34] [Client thread/DEBUG] [FML]: Creating vanilla freeze snapshotinecraftFormatting
+[09:52:34] [Client thread/DEBUG] [FML]: Vanilla freeze snapshot createdinecraftFormatting
+[09:52:35] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:inecraftFormatting
+[09:52:35] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4inecraftFormatting
+[09:52:36] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - LanguageManager took 0.003sinecraftFormatting
+[09:52:36] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Linux (amd64) version 4.18.0-15-generic
 	Java Version: 1.8.0_191, Oracle Corporation
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 302182600 bytes (288 MB) / 445120512 bytes (424 MB) up to 1832910848 bytes (1748 MB)
+	Memory: 492549312 bytes (469 MB) / 594542592 bytes (567 MB) up to 1832910848 bytes (1748 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'Intel Open Source Technology Center' Version: '3.0 Mesa 18.2.8' Renderer: 'Mesa DRI Intel(R) UHD Graphics 620 (Kabylake GT2) 'inecraftFormatting
-[14:58:03] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2816 InitializedinecraftFormatting
-[14:58:03] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.inecraftFormatting
-[14:58:03] [Client thread/INFO] [FML]: Replaced 1036 ore ingredientsinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: File /home/nickthehacker/Documents/F.I.R.S.T-mod-Mcpc-1.12.2/run/config/injectedDependencies.json not found. No dependencies injectedinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]inecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classesinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar, examining for mod candidatesinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar, examining for mod candidatesinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2816/snapshot/20171003/forgeBin-1.12.2-14.23.5.2816.jar, examining for mod candidatesinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar, examining for mod candidatesinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.mojang/patchy/1.1/aef610b34a1be37fa851825f12372b78424d8903/patchy-1.1.jar, examining for mod candidatesinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.4.0/cb208278274bf12ebdb56c61bd7407e6f774d65a/jna-4.4.0.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.3/cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a/jopt-simple-5.0.3.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.9.Final/97860965d6a0a6b98e7f569f3f966727b8db75/netty-all-4.1.9.Final.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/3a3d111be1be1b745edfa7d91678a12d7ed38709/guava-21.0.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.5/6c6c702c89bfff3cd9e80b04d668c5e190d588c6/commons-lang3-3.5.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.5/2852e6e05fbb95076fc091f6d1780f1f8fe35e0f/commons-io-2.5.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.25/9834cdf236c22e84b946bba989e2f94ef5897c3c/authlib-1.5.25.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.10.22/bd0dccebdf3744c75f1ca20063f16e8f7d5e663f/realms-1.10.22.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/7.1.0/9835253257524c1be7ab50c057aa2d418fb72082/fastutil-7.1.0.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.8.1/e801d13612e22cad62a3f4f3fe7fdbe6334a8e72/log4j-api-2.8.1.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.8.1/4ac28ff2f1ddf05dae3043a190451e8c46b73c31/log4j-core-2.8.1.jarinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.10.3/48fd510879dff266c3815947de66e3d4809f8668/text2speech-1.10.3.jar, examining for mod candidatesinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.jline/jline/3.5.1/51800e9d7a13608894a5a28eed0f5c7fa2f300fb/jline-3.5.1.jarinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.2/3354e11e2b34215f06dab629ab88e06aca477c19/asm-debug-all-5.2.jar, examining for mod candidatesinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jarinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4/maven-artifact-3.5.3.jar, examining for mod candidatesinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.4-nightly-20150209/d51a7c040a721d13efdfbd34f8b257b2df882ad0/lwjgl_util-2.9.4-nightly-20150209.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jarinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/.gradle/caches/modules-2/files-2.1/ca.weblite/java-objc-bridge/1.0.0/6ef160c3133a78de015830860197602ca1c855d3/java-objc-bridge-1.0.0.jar, examining for mod candidatesinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jarinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.1.0/60eecb6f15abdb1c653ad80abaac6fe188b3feaa/plexus-utils-3.1.0.jar, examining for mod candidatesinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/931074f46c795d2f7b30ed6395df5715cfd7675b/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jarinecraftFormatting
-[14:58:03] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/bcab850f8f487c3f4c4dbabde778bb82bd1a40ed/lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jarinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: Found a minecraft related directory at /home/nickthehacker/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2816/start, examining for mod candidatesinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/Documents/F.I.R.S.T-mod-Mcpc-1.12.2/build/libs/frc-1.0.jar, examining for mod candidatesinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: Minecraft jar mods loaded successfullyinecraftFormatting
-[14:58:03] [Client thread/INFO] [FML]: Searching /home/nickthehacker/Documents/F.I.R.S.T-mod-Mcpc-1.12.2/run/./mods for modsinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: Examining file compileDummy.jar for potential modsinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: The mod container compileDummy.jar appears to be missing an mcmod.info fileinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: Examining file providedDummy.jar for potential modsinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: The mod container providedDummy.jar appears to be missing an mcmod.info fileinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: Examining file forgeBin-1.12.2-14.23.5.2816.jar for potential modsinecraftFormatting
-[14:58:03] [Client thread/DEBUG] [FML]: The mod container forgeBin-1.12.2-14.23.5.2816.jar appears to be missing an mcmod.info fileinecraftFormatting
-[14:58:06] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 123780279 nanosinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: Examining file jsr305-3.0.1.jar for potential modsinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: The mod container jsr305-3.0.1.jar appears to be missing an mcmod.info fileinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: Examining file patchy-1.1.jar for potential modsinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: The mod container patchy-1.1.jar appears to be missing an mcmod.info fileinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: Examining file text2speech-1.10.3.jar for potential modsinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: The mod container text2speech-1.10.3.jar appears to be missing an mcmod.info fileinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: Examining file asm-debug-all-5.2.jar for potential modsinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: The mod container asm-debug-all-5.2.jar appears to be missing an mcmod.info fileinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: Examining file maven-artifact-3.5.3.jar for potential modsinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: The mod container maven-artifact-3.5.3.jar appears to be missing an mcmod.info fileinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: Examining file java-objc-bridge-1.0.0.jar for potential modsinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: The mod container java-objc-bridge-1.0.0.jar appears to be missing an mcmod.info fileinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: Examining file plexus-utils-3.1.0.jar for potential modsinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: The mod container plexus-utils-3.1.0.jar appears to be missing an mcmod.info fileinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: Examining directory start for potential modsinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: No mcmod.info file found in directory startinecraftFormatting
-[14:58:07] [Client thread/TRACE] [FML]: Recursing into package netinecraftFormatting
-[14:58:07] [Client thread/TRACE] [FML]: Recursing into package net/minecraftforgeinecraftFormatting
-[14:58:07] [Client thread/TRACE] [FML]: Recursing into package net/minecraftforge/gradleinecraftFormatting
-[14:58:07] [Client thread/TRACE] [FML]: Recursing into package net/minecraftforge/gradle/tweakersinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: Examining file frc-1.0.jar for potential modsinecraftFormatting
-[14:58:07] [Client thread/TRACE] [FML]: Located mcmod.info file in file frc-1.0.jarinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.nickb.frcmod.main) - loadinginecraftFormatting
-[14:58:07] [Client thread/TRACE] [FML]: Parsed dependency info for frc: Requirements: [] After:[] Before:[]inecraftFormatting
-[14:58:07] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to loadinecraftFormatting
-[14:58:07] [Client thread/TRACE] [FML]: Received a system property request ''inecraftFormatting
-[14:58:07] [Client thread/TRACE] [FML]: System property request managing the state of 0 modsinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: After merging, found state information for 0 modsinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy oneinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy oneinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: Enabling mod frcinecraftFormatting
-[14:58:07] [Client thread/TRACE] [FML]: Verifying mod requirements are satisfiedinecraftFormatting
-[14:58:07] [Client thread/TRACE] [FML]: All mod requirements are satisfiedinecraftFormatting
-[14:58:07] [Client thread/TRACE] [FML]: Sorting mods into an ordered listinecraftFormatting
-[14:58:07] [Client thread/TRACE] [FML]: Mod sorting completed successfullyinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: Mod sorting datainecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: 	frc(F.I.R.S.T Robotics mod :1.0.0): frc-1.0.jar ()inecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: Loading @Config anotation datainecraftFormatting
-[14:58:07] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod minecraftinecraftFormatting
-[14:58:07] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod minecraftinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft took 0.017sinecraftFormatting
-[14:58:07] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod mcpinecraftFormatting
-[14:58:07] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod mcpinecraftFormatting
-[14:58:07] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Coder Pack took 0.003sinecraftFormatting
-[14:58:07] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod FMLinecraftFormatting
-[14:58:07] [Client thread/TRACE] [FML]: Mod FML is using network checker : Invoking method checkModListsinecraftFormatting
-[14:58:07] [Client thread/TRACE] [FML]: Testing mod FML to verify it accepts its own version in a remote connectioninecraftFormatting
-[14:58:07] [Client thread/TRACE] [FML]: The mod FML accepts its own version (8.0.99.99)inecraftFormatting
-[14:58:07] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, frc] at CLIENTinecraftFormatting
-[14:58:07] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, frc] at SERVERinecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod FMLinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Bar Step: Construction - Forge Mod Loader took 0.629sinecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod forgeinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: Loading Vanilla annotations: nullinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: Preloading CrashReport ClassesinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$10inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$11inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$12inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$13inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$14inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$2inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$3inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$4inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$5inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$6inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$7inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$8inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$9inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$1inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$2inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$3inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$4inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$1inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$2inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$3inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$4inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$2inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$3inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$4inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderGlobal$1inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$1inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$2inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$3inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$4inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureAtlasSprite$1inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureManager$1inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$1inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$2inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$3inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$1inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$2inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$3inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$4inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$5inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$6inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$7inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$1inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$2inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$3inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$4inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$5inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$6inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$7inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$2inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$3inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$4inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$5inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/EntityTracker$1inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/player/InventoryPlayer$1inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$1inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$2inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/network/NetHandlerPlayServer$3inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/network/NetworkSystem$6inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$2inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$3inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$3inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$4inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$1inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$2inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$1inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$2inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$1inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$2inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$3inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$1inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$2inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$3inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$4inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$5inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/world/chunk/Chunk$1inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$1inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$2inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$3inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$10inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$2inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$3inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$4inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$5inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$6inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$7inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$8inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$9inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTableinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$AlignmentinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$ColumninecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$RowinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/ICrashCallableinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1inecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: Mod forge is using network checker : No network checking performedinecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: Testing mod forge to verify it accepts its own version in a remote connectioninecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: The mod forge accepts its own version (14.23.5.2816)inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into forge for type INSTANCEinecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod forgeinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Forge took 0.138sinecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod frcinecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: Mod frc is using network checker : Accepting version 1.0.0inecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: Testing mod frc to verify it accepts its own version in a remote connectioninecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: The mod frc accepts its own version (1.0.0)inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into frcinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for frcinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.nickb.frcmod.proxy.Commonproxy for mod frcinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.nickb.frcmod.proxy.CommonproxyinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into frc for type INSTANCEinecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod frcinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Bar Step: Construction - F.I.R.S.T Robotics mod  took 0.111sinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Bar Finished: Construction took 0.899sinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Mod signature datainecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]:  	Valid Signatures:inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]:  	Missing Signatures:inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: 		minecraft	(Minecraft	1.12.2)	minecraft.jarinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jarinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: 		FML	(Forge Mod Loader	8.0.99.99)	forgeBin-1.12.2-14.23.5.2816.jarinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: 		forge	(Minecraft Forge	14.23.5.2816)	forgeBin-1.12.2-14.23.5.2816.jarinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: 		frc	(F.I.R.S.T Robotics mod 	1.0.0)	frc-1.0.jarinecraftFormatting
-[14:58:08] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:F.I.R.S.T Robotics mod inecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - Default took 0.013sinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.038sinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.030sinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:F.I.R.S.T Robotics mod  took 0.001sinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Bar Finished: Reloading - LanguageManager took 0.128sinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - Reloading listeners took 0.129sinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resources took 0.211sinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy oneinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy oneinecraftFormatting
-[14:58:08] [Client thread/INFO] [FML]: Processing ObjectHolder annotationsinecraftFormatting
-[14:58:08] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotationsinecraftFormatting
-[14:58:08] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotationsinecraftFormatting
-[14:58:08] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotationsinecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod minecraftinecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod minecraftinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft took 0.003sinecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod mcpinecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod mcpinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001sinecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod FMLinecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod FMLinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Forge Mod Loader took 0.002sinecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod forgeinecraftFormatting
-[14:58:08] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0inecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod forgeinecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Forge took 0.109sinecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod frcinecraftFormatting
-[14:58:08] [Client thread/INFO] [STDOUT]: [com.nickb.frcmod.proxy.Commonproxy:preInit:29]: F.I.R.S.T Robotics mod is loading!inecraftFormatting
-[14:58:08] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.jsoninecraftFormatting
-[14:58:08] [Client thread/TRACE] [FML]: Automatically registered mod frc entity Dean_kamen as frc:entity/dean.pnginecraftFormatting
-[14:58:08] [Client thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.monster.EntityZombie from class com.nickb.frcmod.Enitity.Dean.DeaninecraftFormatting
-[14:58:08] [Client thread/DEBUG] [FML]: Skipping automatic mod frc entity registration for already registered entry frc:entity/dean.png class com.nickb.frcmod.Enitity.Dean.DeaninecraftFormatting
-[14:58:08] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:553]: ---- Minecraft Crash Report ----
-// Sorry :(
+[09:52:36] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2816 InitializedinecraftFormatting
+[09:52:36] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.inecraftFormatting
+[09:52:37] [Client thread/INFO] [FML]: Replaced 1036 ore ingredientsinecraftFormatting
+[09:52:37] [Client thread/DEBUG] [FML]: File /home/nickthehacker/Documents/F.I.R.S.T-mod-Mcpc-1.12.2/run/config/injectedDependencies.json not found. No dependencies injectedinecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]inecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classesinecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar, examining for mod candidatesinecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar, examining for mod candidatesinecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2816/snapshot/20171003/forgeBin-1.12.2-14.23.5.2816.jar, examining for mod candidatesinecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar, examining for mod candidatesinecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.mojang/patchy/1.1/aef610b34a1be37fa851825f12372b78424d8903/patchy-1.1.jar, examining for mod candidatesinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.4.0/cb208278274bf12ebdb56c61bd7407e6f774d65a/jna-4.4.0.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.3/cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a/jopt-simple-5.0.3.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.9.Final/97860965d6a0a6b98e7f569f3f966727b8db75/netty-all-4.1.9.Final.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/3a3d111be1be1b745edfa7d91678a12d7ed38709/guava-21.0.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.5/6c6c702c89bfff3cd9e80b04d668c5e190d588c6/commons-lang3-3.5.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.5/2852e6e05fbb95076fc091f6d1780f1f8fe35e0f/commons-io-2.5.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.25/9834cdf236c22e84b946bba989e2f94ef5897c3c/authlib-1.5.25.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.10.22/bd0dccebdf3744c75f1ca20063f16e8f7d5e663f/realms-1.10.22.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/7.1.0/9835253257524c1be7ab50c057aa2d418fb72082/fastutil-7.1.0.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.8.1/e801d13612e22cad62a3f4f3fe7fdbe6334a8e72/log4j-api-2.8.1.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.8.1/4ac28ff2f1ddf05dae3043a190451e8c46b73c31/log4j-core-2.8.1.jarinecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.10.3/48fd510879dff266c3815947de66e3d4809f8668/text2speech-1.10.3.jar, examining for mod candidatesinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.jline/jline/3.5.1/51800e9d7a13608894a5a28eed0f5c7fa2f300fb/jline-3.5.1.jarinecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.2/3354e11e2b34215f06dab629ab88e06aca477c19/asm-debug-all-5.2.jar, examining for mod candidatesinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jarinecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4/maven-artifact-3.5.3.jar, examining for mod candidatesinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.4-nightly-20150209/d51a7c040a721d13efdfbd34f8b257b2df882ad0/lwjgl_util-2.9.4-nightly-20150209.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jarinecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/.gradle/caches/modules-2/files-2.1/ca.weblite/java-objc-bridge/1.0.0/6ef160c3133a78de015830860197602ca1c855d3/java-objc-bridge-1.0.0.jar, examining for mod candidatesinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jarinecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.1.0/60eecb6f15abdb1c653ad80abaac6fe188b3feaa/plexus-utils-3.1.0.jar, examining for mod candidatesinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/931074f46c795d2f7b30ed6395df5715cfd7675b/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jarinecraftFormatting
+[09:52:38] [Client thread/TRACE] [FML]: Skipping known library file /home/nickthehacker/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/bcab850f8f487c3f4c4dbabde778bb82bd1a40ed/lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jarinecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: Found a minecraft related directory at /home/nickthehacker/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2816/start, examining for mod candidatesinecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: Found a minecraft related file at /home/nickthehacker/Documents/F.I.R.S.T-mod-Mcpc-1.12.2/build/libs/frc-1.0.jar, examining for mod candidatesinecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: Minecraft jar mods loaded successfullyinecraftFormatting
+[09:52:38] [Client thread/INFO] [FML]: Searching /home/nickthehacker/Documents/F.I.R.S.T-mod-Mcpc-1.12.2/run/./mods for modsinecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: Examining file compileDummy.jar for potential modsinecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: The mod container compileDummy.jar appears to be missing an mcmod.info fileinecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: Examining file providedDummy.jar for potential modsinecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: The mod container providedDummy.jar appears to be missing an mcmod.info fileinecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: Examining file forgeBin-1.12.2-14.23.5.2816.jar for potential modsinecraftFormatting
+[09:52:38] [Client thread/DEBUG] [FML]: The mod container forgeBin-1.12.2-14.23.5.2816.jar appears to be missing an mcmod.info fileinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: Examining file jsr305-3.0.1.jar for potential modsinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: The mod container jsr305-3.0.1.jar appears to be missing an mcmod.info fileinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: Examining file patchy-1.1.jar for potential modsinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: The mod container patchy-1.1.jar appears to be missing an mcmod.info fileinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: Examining file text2speech-1.10.3.jar for potential modsinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: The mod container text2speech-1.10.3.jar appears to be missing an mcmod.info fileinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: Examining file asm-debug-all-5.2.jar for potential modsinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: The mod container asm-debug-all-5.2.jar appears to be missing an mcmod.info fileinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: Examining file maven-artifact-3.5.3.jar for potential modsinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: The mod container maven-artifact-3.5.3.jar appears to be missing an mcmod.info fileinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: Examining file java-objc-bridge-1.0.0.jar for potential modsinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: The mod container java-objc-bridge-1.0.0.jar appears to be missing an mcmod.info fileinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: Examining file plexus-utils-3.1.0.jar for potential modsinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: The mod container plexus-utils-3.1.0.jar appears to be missing an mcmod.info fileinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: Examining directory start for potential modsinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: No mcmod.info file found in directory startinecraftFormatting
+[09:52:40] [Client thread/TRACE] [FML]: Recursing into package netinecraftFormatting
+[09:52:40] [Client thread/TRACE] [FML]: Recursing into package net/minecraftforgeinecraftFormatting
+[09:52:40] [Client thread/TRACE] [FML]: Recursing into package net/minecraftforge/gradleinecraftFormatting
+[09:52:40] [Client thread/TRACE] [FML]: Recursing into package net/minecraftforge/gradle/tweakersinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: Examining file frc-1.0.jar for potential modsinecraftFormatting
+[09:52:40] [Client thread/TRACE] [FML]: Located mcmod.info file in file frc-1.0.jarinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.nickb.frcmod.main) - loadinginecraftFormatting
+[09:52:40] [Client thread/TRACE] [FML]: Parsed dependency info for frc: Requirements: [] After:[] Before:[]inecraftFormatting
+[09:52:40] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to loadinecraftFormatting
+[09:52:40] [Client thread/TRACE] [FML]: Received a system property request ''inecraftFormatting
+[09:52:40] [Client thread/TRACE] [FML]: System property request managing the state of 0 modsinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: After merging, found state information for 0 modsinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy oneinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy oneinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: Enabling mod frcinecraftFormatting
+[09:52:40] [Client thread/TRACE] [FML]: Verifying mod requirements are satisfiedinecraftFormatting
+[09:52:40] [Client thread/TRACE] [FML]: All mod requirements are satisfiedinecraftFormatting
+[09:52:40] [Client thread/TRACE] [FML]: Sorting mods into an ordered listinecraftFormatting
+[09:52:40] [Client thread/TRACE] [FML]: Mod sorting completed successfullyinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: Mod sorting datainecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: 	frc(F.I.R.S.T Robotics mod :1.0.0): frc-1.0.jar ()inecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: Loading @Config anotation datainecraftFormatting
+[09:52:40] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod minecraftinecraftFormatting
+[09:52:40] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod minecraftinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft took 0.014sinecraftFormatting
+[09:52:40] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod mcpinecraftFormatting
+[09:52:40] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod mcpinecraftFormatting
+[09:52:40] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Coder Pack took 0.001sinecraftFormatting
+[09:52:40] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod FMLinecraftFormatting
+[09:52:40] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 542410819 nanosinecraftFormatting
+[09:52:40] [Client thread/TRACE] [FML]: Mod FML is using network checker : Invoking method checkModListsinecraftFormatting
+[09:52:40] [Client thread/TRACE] [FML]: Testing mod FML to verify it accepts its own version in a remote connectioninecraftFormatting
+[09:52:40] [Client thread/TRACE] [FML]: The mod FML accepts its own version (8.0.99.99)inecraftFormatting
+[09:52:41] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, frc] at CLIENTinecraftFormatting
+[09:52:41] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, frc] at SERVERinecraftFormatting
+[09:52:41] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod FMLinecraftFormatting
+[09:52:41] [Client thread/DEBUG] [FML]: Bar Step: Construction - Forge Mod Loader took 1.099sinecraftFormatting
+[09:52:41] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod forgeinecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: Loading Vanilla annotations: nullinecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: Preloading CrashReport ClassesinecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$10inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$11inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$12inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$13inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$14inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$2inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$3inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$4inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$5inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$6inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$7inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$8inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$9inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$1inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$2inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$3inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$4inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$1inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$2inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$3inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$4inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$2inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$3inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$4inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderGlobal$1inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$1inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$2inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$3inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$4inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureAtlasSprite$1inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureManager$1inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$1inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$2inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$3inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$1inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$2inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$3inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$4inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$5inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$6inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$7inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$1inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$2inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$3inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$4inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$5inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$6inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$7inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$2inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$3inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$4inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$5inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/EntityTracker$1inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/player/InventoryPlayer$1inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$1inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$2inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/network/NetHandlerPlayServer$3inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/network/NetworkSystem$6inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$2inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$3inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$3inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$4inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$1inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$2inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$1inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$2inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$1inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$2inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$3inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$1inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$2inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$3inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$4inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$5inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/world/chunk/Chunk$1inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$1inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$2inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$3inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$10inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$2inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$3inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$4inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$5inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$6inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$7inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$8inecraftFormatting
+[09:52:41] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$9inecraftFormatting
+[09:52:42] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTableinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$AlignmentinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$ColumninecraftFormatting
+[09:52:42] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$RowinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1inecraftFormatting
+[09:52:42] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1inecraftFormatting
+[09:52:42] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/ICrashCallableinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1inecraftFormatting
+[09:52:42] [Client thread/TRACE] [FML]: Mod forge is using network checker : No network checking performedinecraftFormatting
+[09:52:42] [Client thread/TRACE] [FML]: Testing mod forge to verify it accepts its own version in a remote connectioninecraftFormatting
+[09:52:42] [Client thread/TRACE] [FML]: The mod forge accepts its own version (14.23.5.2816)inecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into forge for type INSTANCEinecraftFormatting
+[09:52:42] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod forgeinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Forge took 0.248sinecraftFormatting
+[09:52:42] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod frcinecraftFormatting
+[09:52:42] [Client thread/TRACE] [FML]: Mod frc is using network checker : Accepting version 1.0.0inecraftFormatting
+[09:52:42] [Client thread/TRACE] [FML]: Testing mod frc to verify it accepts its own version in a remote connectioninecraftFormatting
+[09:52:42] [Client thread/TRACE] [FML]: The mod frc accepts its own version (1.0.0)inecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into frcinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for frcinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.nickb.frcmod.proxy.Commonproxy for mod frcinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.nickb.frcmod.proxy.CommonproxyinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into frc for type INSTANCEinecraftFormatting
+[09:52:42] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod frcinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Bar Step: Construction - F.I.R.S.T Robotics mod  took 0.082sinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Bar Finished: Construction took 1.445sinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Mod signature datainecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]:  	Valid Signatures:inecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]:  	Missing Signatures:inecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: 		minecraft	(Minecraft	1.12.2)	minecraft.jarinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jarinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: 		FML	(Forge Mod Loader	8.0.99.99)	forgeBin-1.12.2-14.23.5.2816.jarinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: 		forge	(Minecraft Forge	14.23.5.2816)	forgeBin-1.12.2-14.23.5.2816.jarinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: 		frc	(F.I.R.S.T Robotics mod 	1.0.0)	frc-1.0.jarinecraftFormatting
+[09:52:42] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:F.I.R.S.T Robotics mod inecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - Default took 0.008sinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.031sinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.035sinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:F.I.R.S.T Robotics mod  took 0.001sinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Bar Finished: Reloading - LanguageManager took 0.177sinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - Reloading listeners took 0.178sinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resources took 0.253sinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy oneinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy oneinecraftFormatting
+[09:52:42] [Client thread/INFO] [FML]: Processing ObjectHolder annotationsinecraftFormatting
+[09:52:42] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotationsinecraftFormatting
+[09:52:42] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotationsinecraftFormatting
+[09:52:42] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotationsinecraftFormatting
+[09:52:42] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod minecraftinecraftFormatting
+[09:52:42] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod minecraftinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft took 0.001sinecraftFormatting
+[09:52:42] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod mcpinecraftFormatting
+[09:52:42] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod mcpinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.002sinecraftFormatting
+[09:52:42] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod FMLinecraftFormatting
+[09:52:42] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod FMLinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Forge Mod Loader took 0.002sinecraftFormatting
+[09:52:42] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod forgeinecraftFormatting
+[09:52:42] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0inecraftFormatting
+[09:52:42] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod forgeinecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Forge took 0.131sinecraftFormatting
+[09:52:42] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod frcinecraftFormatting
+[09:52:42] [Client thread/INFO] [STDOUT]: [com.nickb.frcmod.proxy.Commonproxy:preInit:29]: F.I.R.S.T Robotics mod is loading!inecraftFormatting
+[09:52:42] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.jsoninecraftFormatting
+[09:52:42] [Client thread/TRACE] [FML]: Automatically registered mod frc entity Dean_kamen as frc:entity/dean.pnginecraftFormatting
+[09:52:42] [Client thread/TRACE] [FML]: Automatically registered mod frc entity frcbot as frc:entity/robot.pnginecraftFormatting
+[09:52:42] [Client thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.monster.EntityZombie from class com.nickb.frcmod.Enitity.Dean.DeaninecraftFormatting
+[09:52:42] [Client thread/DEBUG] [FML]: Skipping automatic mod frc entity registration for already registered entry frc:entity/dean.png class com.nickb.frcmod.Enitity.Dean.DeaninecraftFormatting
+[09:52:42] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:553]: ---- Minecraft Crash Report ----
+// I blame Dinnerbone.
 
-Time: 5/10/19 2:58 PM
+Time: 5/13/19 9:52 AM
 Description: There was a severe problem during mod loading that has caused the game to fail
 
 net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from F.I.R.S.T Robotics mod  (frc)
@@ -361,7 +362,7 @@ Caused by: java.lang.RuntimeException: Duplicate stat id: "TranslatableComponent
 	at net.minecraft.entity.EntityList$EntityEggInfo.<init>(EntityList.java:450)
 	at net.minecraftforge.fml.common.registry.EntityRegistry.registerEgg(EntityRegistry.java:242)
 	at net.minecraftforge.fml.common.registry.EntityRegistry.registerModEntity(EntityRegistry.java:193)
-	at com.nickb.frcmod.Enitity.RegisterEntity.init(RegisterEntity.java:22)
+	at com.nickb.frcmod.Enitity.RegisterEntity.init(RegisterEntity.java:31)
 	at com.nickb.frcmod.proxy.Commonproxy.preInit(Commonproxy.java:31)
 	at com.nickb.frcmod.main.preInit(main.java:41)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -422,7 +423,7 @@ Details:
 	Operating System: Linux (amd64) version 4.18.0-15-generic
 	Java Version: 1.8.0_191, Oracle Corporation
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 182581816 bytes (174 MB) / 472383488 bytes (450 MB) up to 1832910848 bytes (1748 MB)
+	Memory: 463449960 bytes (441 MB) / 594542592 bytes (567 MB) up to 1832910848 bytes (1748 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: MCP 9.42 Powered by Forge 14.23.5.2816 5 mods loaded, 5 mods active
@@ -438,4 +439,38 @@ Details:
 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'Intel Open Source Technology Center' Version: '3.0 Mesa 18.2.8' Renderer: 'Mesa DRI Intel(R) UHD Graphics 620 (Kabylake GT2) 'inecraftFormatting
-[14:58:08] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:553]: #@!@# Game crashed! Crash report saved to: #@!@# /home/nickthehacker/Documents/F.I.R.S.T-mod-Mcpc-1.12.2/run/./crash-reports/crash-2019-05-10_14.58.08-client.txtinecraftFormatting
+[09:52:42] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:553]: #@!@# Game crashed! Crash report saved to: #@!@# /home/nickthehacker/Documents/F.I.R.S.T-mod-Mcpc-1.12.2/run/./crash-reports/crash-2019-05-13_09.52.42-client.txtinecraftFormatting
+[09:52:42] [Forge Version Check/DEBUG] [forge.VersionCheck]: Failed to process update informationinecraftFormatting
+java.net.NoRouteToHostException: No route to host (Host unreachable)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_191]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_191]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_191]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_191]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_191]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_191]
+	at java.net.Socket.connect(Socket.java:538) ~[?:1.8.0_191]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:1.8.0_191]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0_191]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0_191]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242) ~[?:1.8.0_191]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339) ~[?:1.8.0_191]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038) ~[?:1.8.0_191]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_191]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:91) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1484) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1482) ~[?:1.8.0_191]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_191]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782) ~[?:1.8.0_191]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1481) ~[?:1.8.0_191]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_191]
+	at net.minecraftforge.common.ForgeVersion$1.openUrlStream(ForgeVersion.java:223) ~[ForgeVersion$1.class:?]
+	at net.minecraftforge.common.ForgeVersion$1.process(ForgeVersion.java:252) [ForgeVersion$1.class:?]
+	at net.minecraftforge.common.ForgeVersion$1.run(ForgeVersion.java:201) [ForgeVersion$1.class:?]
