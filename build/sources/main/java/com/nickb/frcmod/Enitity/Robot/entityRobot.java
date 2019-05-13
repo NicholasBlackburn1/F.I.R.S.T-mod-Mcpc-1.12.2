@@ -42,6 +42,7 @@ setSize(0.6F, 1.95F);
 @Override
 protected void entityInit() {
 super.entityInit();
+
 }
 
 @Override

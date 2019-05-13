@@ -28,7 +28,7 @@ public class Commonproxy{
     public void preInit(FMLPreInitializationEvent event){
           System.out.println(main.name + " is loading!");
               RegisterEntity.init();
-              RegisterEntity.init();
+             
      }
     public void Init(FMLInitializationEvent event){
        

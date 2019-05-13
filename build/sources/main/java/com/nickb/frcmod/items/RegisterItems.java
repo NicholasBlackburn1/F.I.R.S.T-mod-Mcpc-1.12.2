@@ -28,11 +28,11 @@ public static void register(IForgeRegistry<Item> registry) {
 public static void registerModels() {
   
 	ingotCopper.registerItemModel();
-	//wire.registerItemModel();
+	wire.registerItemModel();
 	roborio.registerItemModel();
 	tallonsrx.registerItemModel();
 	weels.registerItemModel();
-	//pdp.registerItemModel();
+	pdp.registerItemModel();
 
     }
 }

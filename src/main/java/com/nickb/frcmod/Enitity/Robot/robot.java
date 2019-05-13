@@ -32,7 +32,7 @@ public class robot extends ModelBase {
 
 		bone3 = new ModelRenderer(this);
 		bone3.setRotationPoint(0.0F, 24.0F, 0.0F);
-		bone3.cubeList.add(new ModelBox(bone3, 0, 0, -7.0F, -5.0F, -8.0F, 1, 3, 16, 0.0F, false));
+		bone3.cubeList.add(new ModelBox(bone3, 0, 0, -7.0F, -5.0F, -8.0F, 1, 3, 16, 0.0F, true));
 		bone3.cubeList.add(new ModelBox(bone3, 0, 0, -7.0F, -2.0F, 3.0F, 1, 3, 4, 0.0F, false));
 		bone3.cubeList.add(new ModelBox(bone3, 0, 0, -7.0F, -2.0F, -8.0F, 1, 3, 4, 0.0F, false));
 		bone3.cubeList.add(new ModelBox(bone3, 0, 0, 5.0F, -2.0F, -8.0F, 1, 3, 4, 0.0F, false));
@@ -43,7 +43,7 @@ public class robot extends ModelBase {
 	}
 
 	@Override
-	public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) {
+	public void render(Entity entityRobot, float f, float f1, float f2, float f3, float f4, float f5) {
 		unknown_bone.render(f5);
 		bone.render(f5);
 		bone2.render(f5);
