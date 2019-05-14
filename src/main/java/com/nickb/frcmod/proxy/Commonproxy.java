@@ -3,11 +3,13 @@ package com.nickb.frcmod.proxy;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import java.lang.reflect.Proxy;
 
 import com.nickb.frcmod.main;
 import com.nickb.frcmod.Enitity.RegisterEntity;
+import com.nickb.frcmod.Enitity.TestContainerTileEntity;
 import com.nickb.frcmod.Events.Robobuilderevent;
 import com.nickb.frcmod.blocks.Registerblocks;
 import com.nickb.frcmod.items.RegisterItems;
@@ -53,6 +55,7 @@ public class Commonproxy{
     @SubscribeEvent
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
         Registerblocks.register(event.getRegistry());
+        GameRegistry.registerTileEntity(TestContainerTileEntity.class, main.modId + "Robot_builder");
     }
 
     @SubscribeEvent
@@ -61,7 +64,7 @@ public class Commonproxy{
         Registerblocks.registerModels();
         RegisterItems.registerModels();
         RegisterEntity.initModels();
-        
+    
     }
 
     @SubscribeEvent

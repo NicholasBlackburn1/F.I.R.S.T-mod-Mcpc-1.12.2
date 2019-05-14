@@ -67,5 +67,5 @@ public class Commonproxy{
     @SubscribeEvent
     public static void Login(PlayerLoggedInEvent event) {
         Robobuilderevent.onJoin(event);
+      }
     }
-}
