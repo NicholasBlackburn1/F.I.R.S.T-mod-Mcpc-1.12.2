@@ -4,6 +4,7 @@ import java.util.Set;
 
 import javax.annotation.Nullable;
 
+import com.google.common.collect.Sets;
 import com.nickb.frcmod.main;
 
 import net.minecraft.entity.Entity;
@@ -28,6 +29,7 @@ import net.minecraft.init.Items;
 import net.minecraft.init.MobEffects;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.datasync.DataParameter;
 import net.minecraft.network.datasync.DataSerializers;
 import net.minecraft.network.datasync.EntityDataManager;
@@ -36,18 +38,29 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
+import net.minecraft.world.storage.loot.functions.SetNBT;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class entityRobot extends EntityAnimal {
 
     public static final ResourceLocation LOOT = new ResourceLocation(main.modId + "entity/dean");
-    private static final DataParameter<Boolean> SADDLED;
-    private static final DataParameter<Integer> BOOST_TIME;
-    private static final Set<Item> TEMPTATION_ITEMS;
-    private boolean boosting;
-    private int boostTime;
-    private int totalBoostTime;
+    public static final DataParameter<Boolean> SADDLED;
+    public static final DataParameter<Integer> BOOST_TIME;
+    public static final Set<Item> TEMPTATION_ITEMS;
+    public boolean boosting;
+    public int boostTime;
+    public int totalBoostTime;
+    
+    public void notifyDataManagerChange(DataParameter<?> p_notifyDataManagerChange_1_) {
+        if (BOOST_TIME.equals(p_notifyDataManagerChange_1_) && this.world.isRemote) {
+           this.boosting = true;
+           this.boostTime = 0;
+           this.totalBoostTime = (Integer)this.dataManager.get(BOOST_TIME);
+        }
+  
+        super.notifyDataManagerChange(p_notifyDataManagerChange_1_);
+     }
     
     public entityRobot(World worldIn) {
         super(worldIn);
@@ -57,6 +70,8 @@ public class entityRobot extends EntityAnimal {
     @Override
     protected void entityInit() {
         super.entityInit();
+        this.dataManager.register(SADDLED, false);
+        this.dataManager.register(BOOST_TIME, 0);
 
     }
 
@@ -67,11 +82,7 @@ public class entityRobot extends EntityAnimal {
         // speed, ...
         this.getEntityAttribute(SharedMonsterAttributes.FOLLOW_RANGE).setBaseValue(35.0D);
         this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(5.50D);
-        this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(3.0D);
         this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(2.0D);
-    }
-
-    public void setArmsRaised(boolean armsRaised) {
     }
 
     @SideOnly(Side.CLIENT)
@@ -79,22 +90,28 @@ public class entityRobot extends EntityAnimal {
     @Override
     protected void initEntityAI() {
         this.tasks.addTask(0, new EntityAISwimming(this));
-        this.tasks.addTask(2, new EntityAIAttackMelee(this, 1.0D, false));
-        this.tasks.addTask(5, new EntityAIMoveTowardsRestriction(this, 1.0D));
-        this.tasks.addTask(7, new EntityAIWander(this, 1.0D));
-        this.tasks.addTask(8, new EntityAIWatchClosest(this, EntityPlayer.class, 8.0F));
-        this.tasks.addTask(8, new EntityAILookIdle(this));
+        this.tasks.addTask(2, new EntityAIMoveTowardsRestriction(this, 1.0D));
+        this.tasks.addTask(3, new EntityAIWander(this, 1.0D));
+        this.tasks.addTask(4, new EntityAIWatchClosest(this, EntityPlayer.class, 8.0F));
+        this.tasks.addTask(5, new EntityAILookIdle(this));
         this.applyEntityAI();
     }
 
     private void applyEntityAI() {
         this.tasks.addTask(6, new EntityAIMoveThroughVillage(this, 1.0D, false));
         this.targetTasks.addTask(1, new EntityAIHurtByTarget(this, true, new Class[] { robot.class }));
-        this.targetTasks.addTask(2, new EntityAINearestAttackableTarget(this, EntityPlayer.class, true));
-        this.targetTasks.addTask(3, new EntityAINearestAttackableTarget(this, EntityVillager.class, false));
-        this.targetTasks.addTask(3, new EntityAINearestAttackableTarget(this, EntityIronGolem.class, true));
     }
-
+    
+    public void writeEntityToNBT(NBTTagCompound p_writeEntityToNBT_1_) {
+        super.writeEntityToNBT(p_writeEntityToNBT_1_);
+        p_writeEntityToNBT_1_.setBoolean("Saddle", this.getSaddled());
+     }
+  
+     public void readEntityFromNBT(NBTTagCompound p_readEntityFromNBT_1_) {
+        super.readEntityFromNBT(p_readEntityFromNBT_1_);
+        this.setSaddled(p_readEntityFromNBT_1_.getBoolean("Saddle"));
+     }
+  
     public boolean getSaddled() {
         return (Boolean) this.dataManager.get(SADDLED);
     }
@@ -128,20 +145,6 @@ public class entityRobot extends EntityAnimal {
             }
         } else {
             return true;
-        }
-    }
-
-    @Override
-    public boolean attackEntityAsMob(Entity entityIn) {
-        if (super.attackEntityAsMob(entityIn)) {
-            if (entityIn instanceof EntityLivingBase) {
-                // This zombie gives health boost and regeneration when it attacks
-                ((EntityLivingBase) entityIn).addPotionEffect(new PotionEffect(MobEffects.HEALTH_BOOST, 200));
-                ((EntityLivingBase) entityIn).addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 200));
-            }
-            return true;
-        } else {
-            return false;
         }
     }
 
@@ -219,8 +222,12 @@ public class entityRobot extends EntityAnimal {
             this.getDataManager().set(BOOST_TIME, this.totalBoostTime);
             return true;
         }
-    }
-
+    } 
+    static {
+        SADDLED = EntityDataManager.createKey(entityRobot.class, DataSerializers.BOOLEAN);
+        BOOST_TIME = EntityDataManager.createKey(entityRobot.class, DataSerializers.VARINT);
+        TEMPTATION_ITEMS = Sets.newHashSet(new Item[]{Items.CARROT, Items.POTATO, Items.BEETROOT});
+     }
     @Override
     @Nullable
     protected ResourceLocation getLootTable() {
