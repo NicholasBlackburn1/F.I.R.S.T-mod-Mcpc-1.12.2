@@ -3,6 +3,7 @@ package com.nickb.frcmod.proxy;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent;
+import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import java.lang.reflect.Proxy;
@@ -12,40 +13,55 @@ import com.nickb.frcmod.Enitity.RegisterEntity;
 import com.nickb.frcmod.Enitity.TestContainerTileEntity;
 import com.nickb.frcmod.Events.Robobuilderevent;
 import com.nickb.frcmod.blocks.Registerblocks;
+import com.nickb.frcmod.blocks.Robotbuilder;
 import com.nickb.frcmod.items.RegisterItems;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.network.play.server.SPacketCombatEvent.Event;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.EnumHand;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.translation.I18n;
+import net.minecraft.world.World;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+
 @Mod.EventBusSubscriber
-public class Commonproxy{
-     Proxy proxy;
+public class Commonproxy {
+    Proxy proxy;
 
-    public void preInit(FMLPreInitializationEvent event){
-          System.out.println(main.name + " is loading!");
-              RegisterEntity.init();
-             
-     }
-    public void Init(FMLInitializationEvent event){
-       
-     }
-    public void postInit(FMLPostInitializationEvent event){
-       
+    public void preInit(FMLPreInitializationEvent event) {
+        System.out.println(main.name + " is loading!");
+        RegisterEntity.init();
+        NetworkRegistry.INSTANCE.registerGuiHandler(main.instance, new GuiProxy());
+
     }
+
+    public void Init(FMLInitializationEvent event) {
+
+    }
+
+    public void postInit(FMLPostInitializationEvent event) {
+
+    }
+
     public void registerItemRenderer(Item item, int meta, String id) {
-       
 
     }
+
     @SubscribeEvent
-	public String localize(String unlocalized, Object... args) {
-		return I18n.translateToLocalFormatted(unlocalized, args);
+    public String localize(String unlocalized, Object... args) {
+        return I18n.translateToLocalFormatted(unlocalized, args);
     }
+
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
         RegisterItems.register(event.getRegistry());
@@ -55,7 +71,7 @@ public class Commonproxy{
     @SubscribeEvent
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
         Registerblocks.register(event.getRegistry());
-        GameRegistry.registerTileEntity(TestContainerTileEntity.class, main.modId + "Robot_builder");
+
     }
 
     @SubscribeEvent
@@ -64,7 +80,9 @@ public class Commonproxy{
         Registerblocks.registerModels();
         RegisterItems.registerModels();
         RegisterEntity.initModels();
-    
+       
+        
+
     }
 
     @SubscribeEvent
