@@ -83,6 +83,7 @@
   "1dd34f6b-f553-3906-92e2-e13f78ae2b51": "Player961",
   "2659329e-1c65-3850-9659-d27fc655aa3c": "Player750",
   "8773eef5-d9ab-33f4-b901-5d723e8af879": "Player795",
+<<<<<<< HEAD
   "62902853-7a10-3bb0-a496-11410998cbd4": "Player365",
   "4e1f5e28-f05f-3acf-ac65-db01d9d51f95": "Player829",
   "8cfc5391-e37d-328f-a689-9b5f6c4663f5": "Player536",
@@ -93,4 +94,7 @@
   "613fffc1-d252-35dc-8bd1-c9c1b7febbb1": "Player26",
   "ccf0c278-c21f-3ec3-a87c-05202673a5dd": "Player197",
   "a7d84b43-620c-3be0-bbc6-d96e040e37ab": "Player590"
+=======
+  "62902853-7a10-3bb0-a496-11410998cbd4": "Player365"
+>>>>>>> parent of 050824f... added rideable code to robot
 }

@@ -10,7 +10,6 @@ import com.nickb.frcmod.Enitity.Dean.RenderDean;
 import com.nickb.frcmod.Enitity.Robot.RenderRobot;
 import com.nickb.frcmod.Enitity.Robot.entityRobot;
 
-import net.minecraft.entity.EntityAreaEffectCloud;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.init.Biomes;
 import net.minecraft.util.ResourceLocation;

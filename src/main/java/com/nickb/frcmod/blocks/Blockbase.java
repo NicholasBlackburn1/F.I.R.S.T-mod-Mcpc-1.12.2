@@ -19,13 +19,7 @@ public class Blockbase extends Block {
 	
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		hasTileEntity(true);
 	}
-	
-	public void hasTileEntity(boolean b) {
-		
-	}
-
 	public void registerItemModel(Item itemBlock) {
 		main.proxy.registerItemRenderer(itemBlock, 0, name);
 	}
